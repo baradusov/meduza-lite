@@ -1,5 +1,6 @@
 import { writeFileSync } from 'fs';
-import { getLatestNews, getRss } from 'lib/api';
+import xmlParser from 'fast-xml-parser';
+import { getLatestNews, getRss, generateRss } from 'lib/api';
 import { formatDate } from 'lib/helpers';
 import Page from 'components/Page';
 import styles from 'styles/Home.module.css';
@@ -36,7 +37,10 @@ const Home = (props) => {
 
 export const getStaticProps = async () => {
   const data = await getLatestNews();
-  const rss = await getRss();
+  const xml = await getRss();
+  const rssJson = xmlParser.parse(xml);
+  const rss = generateRss(rssJson.rss.channel.item);
+
   writeFileSync('./public/rss.xml', rss);
 
   const news = data.map((item) => {

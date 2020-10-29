@@ -1,255 +1,250 @@
 <?xml version="1.0"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-  <channel>
-    <title>Meduza.io</title>
-    <link>https://meduza.io</link>
-    <language>ru</language>
-    <description>&#x41C;&#x44B; &#x432;&#x44B;&#x431;&#x438;&#x440;&#x430;&#x435;&#x43C; &#x434;&#x43B;&#x44F; &#x432;&#x430;&#x441; &#x441;&#x430;&#x43C;&#x44B;&#x435; &#x432;&#x430;&#x436;&#x43D;&#x44B;&#x435; &#x43D;&#x43E;&#x432;&#x43E;&#x441;&#x442;&#x438; &#x438; &#x433;&#x43E;&#x442;&#x43E;&#x432;&#x438;&#x43C; &#x43B;&#x443;&#x447;&#x448;&#x438;&#x435; &#x442;&#x435;&#x43A;&#x441;&#x442;&#x44B; &#x43E; &#x442;&#x43E;&#x43C;, &#x447;&#x442;&#x43E; &#x43F;&#x440;&#x43E;&#x438;&#x441;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x432; &#x420;&#x43E;&#x441;&#x441;&#x438;&#x438; &#x438; &#x43C;&#x438;&#x440;&#x435;.</description>
-    <image>
-      <url>https://meduza.io/image/attachments/images/005/208/897/original/V9OZX27dSUO80e_VZcTS6Q.png</url>
+  <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
       <title>Meduza.io</title>
-      <link>https://meduza.io</link>
-    </image>
-    <atom:link href="https://meduza.io/rss/all" rel="self" type="application/rss+xml"/>
-    <item>
-      <title><![CDATA[Белоруссия запретила въезд из Латвии, Литвы и Польши]]></title>
-      <link>https://meduza.io/news/2020/10/29/belorussiya-zapretila-v-ezd-iz-latvii-litvy-i-polshi</link>
-      <guid>https://meduza.io/news/2020/10/29/belorussiya-zapretila-v-ezd-iz-latvii-litvy-i-polshi</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603987946/news/2020/10/29/belorussiya-zapretila-v-ezd-iz-latvii-litvy-i-polshi" length="0" type="image/png"/>
-      <description><![CDATA[Белоруссия закрыла въезд в страну на сухопутных границах с Латвией, Литвой и Польшей. Как пишет Onliner.by, такое решение ранее никак не анонсировалось.]]></description>
-      <pubDate>Thu, 29 Oct 2020 16:12:26 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[«А что в 1937? Переехал?» В Москве в день памяти жертв политического террора мемориальные таблички дополнили вопросами о репрессиях]]></title>
-      <link>https://meduza.io/news/2020/10/29/a-chto-v-1937-pereehal-v-moskve-v-den-pamyati-zhertv-politicheskogo-terrora-memorialnye-tablichki-dopolnili-voprosami-o-repressiyah</link>
-      <guid>https://meduza.io/news/2020/10/29/a-chto-v-1937-pereehal-v-moskve-v-den-pamyati-zhertv-politicheskogo-terrora-memorialnye-tablichki-dopolnili-voprosami-o-repressiyah</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603987109/news/2020/10/29/a-chto-v-1937-pereehal-v-moskve-v-den-pamyati-zhertv-politicheskogo-terrora-memorialnye-tablichki-dopolnili-voprosami-o-repressiyah" length="0" type="image/png"/>
-      <description><![CDATA[В Москве 29 октября — в день памяти жертв политического террора — у мемориальных табличек некоторым ученым, поэтам и военным появились надписи, указывающие на то, что они были репрессированы, но на мемориальных знаках это не отражено.]]></description>
-      <pubDate>Thu, 29 Oct 2020 15:58:29 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Лукашенко пригрозил протестующим студентам «мерами о непризнании дипломов» зарубежных вузов]]></title>
-      <link>https://meduza.io/news/2020/10/29/lukashenko-prigrozil-protestuyuschim-studentam-merami-o-nepriznanii-diplomov-zarubezhnyh-vuzov</link>
-      <guid>https://meduza.io/news/2020/10/29/lukashenko-prigrozil-protestuyuschim-studentam-merami-o-nepriznanii-diplomov-zarubezhnyh-vuzov</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603984723/news/2020/10/29/lukashenko-prigrozil-protestuyuschim-studentam-merami-o-nepriznanii-diplomov-zarubezhnyh-vuzov" length="0" type="image/png"/>
-      <description><![CDATA[Александр Лукашенко поручил правительству Белоруссии «принять меры», чтобы в республике не признавали дипломы зарубежных вузов. Об этом Лукашенко сообщил, комментируя протесты белорусских студентов, передает «Белта».]]></description>
-      <pubDate>Thu, 29 Oct 2020 15:18:43 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Уютный городок без улицы Ленина. Как власти старинной Тарусы неожиданно провели десоветизацию, раскололи город пополам и взволновали всю Россию. Репортаж Андрея Перцева]]></title>
-      <link>https://meduza.io/feature/2020/10/29/uyutnyy-gorodok-bez-ulitsy-lenina</link>
-      <guid>https://meduza.io/feature/2020/10/29/uyutnyy-gorodok-bez-ulitsy-lenina</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603983107/feature/2020/10/29/uyutnyy-gorodok-bez-ulitsy-lenina" length="0" type="image/png"/>
-      <description><![CDATA[В октябре 2020 года городская дума Тарусы с подачи главы района Руслана Смоленского вернула улицам в историческом центре дореволюционные названия. Авторы и сторонники идеи говорят, что переименование требуется, чтобы выделиться из тысячи городов, где улицы носят одинаковые советские имена, а также избавиться от прославления революционеров и чекистов. Против идеи выступили коммунисты, обвинившие тарусские власти в «декоммунизации». Многих местных жителей возвращение прежних имен улиц (среди них есть, например, Лесопильная, Кирпичная и Огородная) тоже не устраивает. Кроме того, оказалось, что «историческими» и «традиционными» многие тарусяне считают именно советские названия. Спецкор «Медузы» Андрей Перцев съездил в Тарусу, чтобы посмотреть, как старинный райцентр в Калужской области справляется с неожиданным политическим кризисом.]]></description>
-      <pubDate>Thu, 29 Oct 2020 14:50:29 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Минюст включил «Арестантское уголовное единство» в список экстремистских организаций]]></title>
-      <link>https://meduza.io/news/2020/10/29/minyust-vklyuchil-arestantskoe-ugolovnoe-edinstvo-v-spisok-ekstremistskih-organizatsiy</link>
-      <guid>https://meduza.io/news/2020/10/29/minyust-vklyuchil-arestantskoe-ugolovnoe-edinstvo-v-spisok-ekstremistskih-organizatsiy</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603980549/news/2020/10/29/minyust-vklyuchil-arestantskoe-ugolovnoe-edinstvo-v-spisok-ekstremistskih-organizatsiy" length="0" type="image/png"/>
-      <description><![CDATA[Минюст внес «международное общественное движение „Арестантское уголовное единство“» в список экстремистских организаций. Соответствующий реестр на сайте Минюста обновлен 29 октября.]]></description>
-      <pubDate>Thu, 29 Oct 2020 14:07:48 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Глава администрации Уфы умер от коронавируса]]></title>
-      <link>https://meduza.io/news/2020/10/29/glava-administratsii-ufy-umer-ot-koronavirusa</link>
-      <guid>https://meduza.io/news/2020/10/29/glava-administratsii-ufy-umer-ot-koronavirusa</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603979704/news/2020/10/29/glava-administratsii-ufy-umer-ot-koronavirusa" length="0" type="image/png"/>
-      <description><![CDATA[Глава администрации Уфы Ульфат Мустафин умер от последствий коронавирусной инфекции. Об этом сообщает «Интерфакс».]]></description>
-      <pubDate>Thu, 29 Oct 2020 13:55:04 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Путина спросили о нетрадиционных методах денежно-кредитной политики. Угадайте, о чем «нетрадиционном» он стал говорить в ответ]]></title>
-      <link>https://meduza.io/feature/2020/10/29/putina-sprosili-o-netraditsionnyh-metodah-denezhno-kreditnoy-politiki-ugadayte-o-chem-netraditsionnom-on-stal-govorit-v-otvet</link>
-      <guid>https://meduza.io/feature/2020/10/29/putina-sprosili-o-netraditsionnyh-metodah-denezhno-kreditnoy-politiki-ugadayte-o-chem-netraditsionnom-on-stal-govorit-v-otvet</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603976166/feature/2020/10/29/putina-sprosili-o-netraditsionnyh-metodah-denezhno-kreditnoy-politiki-ugadayte-o-chem-netraditsionnom-on-stal-govorit-v-otvet" length="0" type="image/png"/>
-      <description><![CDATA[Президент России Владимир Путин заявил 29 октября на инвестиционном форуме «Россия зовет!», что «с определенной осторожностью, но пониманием» относится к однополым бракам. Так он ответил на вопрос о нетрадиционных методах денежно-кредитной политики. Трансляцию выступления вел телеканал «Россия 24». Мы публикуем расшифровку речи Путина.]]></description>
-      <pubDate>Thu, 29 Oct 2020 12:51:42 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[У мамы разработчика из Самары не грузилась «Медуза». Он сделал для нее облегченную версию сайта. И не зря — теперь мама прочитает о сыне в новостях]]></title>
-      <link>https://meduza.io/shapito/2020/10/29/u-mamy-razrabotchika-iz-samary-ne-gruzilas-meduza-on-sdelal-dlya-nee-oblegchennuyu-versiyu-sayta-i-ne-zrya-teper-mama-prochitaet-o-syne-v-novostyah</link>
-      <guid>https://meduza.io/shapito/2020/10/29/u-mamy-razrabotchika-iz-samary-ne-gruzilas-meduza-on-sdelal-dlya-nee-oblegchennuyu-versiyu-sayta-i-ne-zrya-teper-mama-prochitaet-o-syne-v-novostyah</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603975521/shapito/2020/10/29/u-mamy-razrabotchika-iz-samary-ne-gruzilas-meduza-on-sdelal-dlya-nee-oblegchennuyu-versiyu-sayta-i-ne-zrya-teper-mama-prochitaet-o-syne-v-novostyah" length="0" type="image/png"/>
-      <description><![CDATA[Фронтенд-разработчик из Самары по имени Нуриль сделал для мамы облегченную версию «Медузы» — такую, чтобы можно было читать сайт со старого телефона и планшета.]]></description>
-      <pubDate>Thu, 29 Oct 2020 12:45:21 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Лукашенко предложил создавать вооруженные народные дружины «для защиты своих домов»]]></title>
-      <link>https://meduza.io/news/2020/10/29/lukashenko-predlozhil-sozdavat-vooruzhennye-narodnye-druzhiny-dlya-zaschity-svoih-domov</link>
-      <guid>https://meduza.io/news/2020/10/29/lukashenko-predlozhil-sozdavat-vooruzhennye-narodnye-druzhiny-dlya-zaschity-svoih-domov</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603975074/news/2020/10/29/lukashenko-predlozhil-sozdavat-vooruzhennye-narodnye-druzhiny-dlya-zaschity-svoih-domov" length="0" type="image/png"/>
-      <description><![CDATA[Президент Белоруссии Александр Лукашенко предложил усилить роль народных дружин в обеспечении безопасности и общественного порядка в стране.]]></description>
-      <pubDate>Thu, 29 Oct 2020 12:37:53 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Море Лаптевых впервые не замерзло в октябре. Это случилось из-за глобального потепления? Замерзнет ли оно вообще? И отразится ли это на погоде? Объясняет климатолог Александр Кислов]]></title>
-      <link>https://meduza.io/feature/2020/10/29/more-laptevyh-vpervye-ne-zamerzlo-v-oktyabre-eto-sluchilos-iz-za-globalnogo-potepleniya-zamerznet-li-ono-voobsche-i-otrazitsya-li-eto-na-pogode</link>
-      <guid>https://meduza.io/feature/2020/10/29/more-laptevyh-vpervye-ne-zamerzlo-v-oktyabre-eto-sluchilos-iz-za-globalnogo-potepleniya-zamerznet-li-ono-voobsche-i-otrazitsya-li-eto-na-pogode</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603974153/feature/2020/10/29/more-laptevyh-vpervye-ne-zamerzlo-v-oktyabre-eto-sluchilos-iz-za-globalnogo-potepleniya-zamerznet-li-ono-voobsche-i-otrazitsya-li-eto-na-pogode" length="0" type="image/png"/>
-      <description><![CDATA[В этом октябре море Лаптевых впервые за всю историю наблюдений не начало замерзать. Экологи объясняют это глобальным потеплением — несмотря на то, что из-за коронавируса производство, а соответственно и объем выбросов парниковых газов во всем мире сократилось. «Медуза» поговорила с климатологом Александром Кисловым о том, можем ли чем-то грозить такая ситуация с морем Лаптевых и какие есть проекты по борьбе с глобальным потеплением — среди них, например, разливать серную кислоту в стратосфере.]]></description>
-      <pubDate>Thu, 29 Oct 2020 12:22:11 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[«Они приговорены быть одни». Режиссер фильма «Тихий голос» рассказывает о своем герое — бойце ММА, который бежал из Чечни из-за своей гомосексуальности]]></title>
-      <link>https://meduza.io/feature/2020/10/29/oni-prigovoreny-byt-odni</link>
-      <guid>https://meduza.io/feature/2020/10/29/oni-prigovoreny-byt-odni</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603974248/feature/2020/10/29/oni-prigovoreny-byt-odni" length="0" type="image/png"/>
-      <description><![CDATA[Фильм «Тихий голос» — один из участников фестиваля «Артдокфест» в 2020 году — рассказывает о молодом человеке, успешном бойце ММА по имени Хаваж. Три года назад Хаваж вынужденно покинул Чечню после того, как старший брат узнал, что он гей. Из-за эмоциональных потрясений Хаваж потерял голос. Для безопасности ему пришлось отказаться от любимого спорта и общения с родственниками, он постоянно переезжает с места на место. Единственная связь с родиной — аудиосообщения матери, на которые Хаваж не может ответить. «Медуза» поговорила с режиссером фильма, работающим под псевдонимом Река Валерик. Он рассказал, почему даже в Европе геи из Чечни не могут чувствовать себя свободно и безопасно.]]></description>
-      <pubDate>Thu, 29 Oct 2020 12:19:34 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[В Ницце террорист убил трех человек в базилике Нотр-Дам. В Авиньоне — нападение на полицейских, в Саудовской Аравии — на охрану консульства Франции]]></title>
-      <link>https://meduza.io/feature/2020/10/29/v-nitstse-terrorist-ubil-treh-chelovek-v-bazilike-notr-dam-v-avinone-napadenie-na-politseyskih-v-saudovskoy-aravii-na-ohranu-konsulstva-frantsii</link>
-      <guid>https://meduza.io/feature/2020/10/29/v-nitstse-terrorist-ubil-treh-chelovek-v-bazilike-notr-dam-v-avinone-napadenie-na-politseyskih-v-saudovskoy-aravii-na-ohranu-konsulstva-frantsii</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603971220/feature/2020/10/29/v-nitstse-terrorist-ubil-treh-chelovek-v-bazilike-notr-dam-v-avinone-napadenie-na-politseyskih-v-saudovskoy-aravii-na-ohranu-konsulstva-frantsii" length="0" type="image/png"/>
-      <description><![CDATA[В Ницце террорист утром 29 октября напал с ножом на посетителей базилики Нотр-Дам. В результате нападения погибли три человека; как уточняет Le Figaro, двое из них — мужчина и женщина — были убиты в самой базилике, еще одна женщина — в расположенном рядом кафе, где она пыталась спрятаться от преступника. Одна из жертв, по данным Nice-Matin, была обезглавлена. Нападавшего задержала полиция примерно через 10 минут после атаки, он получил ранения и был госпитализирован. О его личности пока ничего не сообщается. После нападения полиция оцепила район и проверила его на наличие взрывных устройств. Власти Ниццы распорядились закрыть все церкви и другие культовые сооружения города и взять их под охрану. ]]></description>
-      <pubDate>Thu, 29 Oct 2020 11:33:40 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Певица Граймс убаюкивает сына X Æ A-XII нейроколыбельной. Она записала ее вместе с Endel — стартапом, основанным выходцами из России]]></title>
-      <link>https://meduza.io/shapito/2020/10/29/pevitsa-grayms-ubayukivaet-svoego-syna-x-ae-a-xii-neyrokolybelnoy-ona-zapisala-ee-vmeste-s-endel-startapom-osnovannym-vyhodtsami-iz-rossii</link>
-      <guid>https://meduza.io/shapito/2020/10/29/pevitsa-grayms-ubayukivaet-svoego-syna-x-ae-a-xii-neyrokolybelnoy-ona-zapisala-ee-vmeste-s-endel-startapom-osnovannym-vyhodtsami-iz-rossii</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603970331/shapito/2020/10/29/pevitsa-grayms-ubayukivaet-svoego-syna-x-ae-a-xii-neyrokolybelnoy-ona-zapisala-ee-vmeste-s-endel-startapom-osnovannym-vyhodtsami-iz-rossii" length="0" type="image/png"/>
-      <description><![CDATA[Канадской певице Граймс очень не нравились детские песенки. Она не хотела включать их сыну от Илона Маска по имени X Æ A-XII и «портить ему знакомство с миром».]]></description>
-      <pubDate>Thu, 29 Oct 2020 11:16:12 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[В Авиньоне вооруженный ножом преступник попытался напасть на полицейских. Он кричал «Аллах акбар!]]></title>
-      <link>https://meduza.io/news/2020/10/29/v-avinone-vooruzhennyy-nozhom-prestupnik-popytalsya-napast-na-politseyskih-on-krichal-allah-akbar</link>
-      <guid>https://meduza.io/news/2020/10/29/v-avinone-vooruzhennyy-nozhom-prestupnik-popytalsya-napast-na-politseyskih-on-krichal-allah-akbar</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603969775/news/2020/10/29/v-avinone-vooruzhennyy-nozhom-prestupnik-popytalsya-napast-na-politseyskih-on-krichal-allah-akbar" length="0" type="image/png"/>
-      <description><![CDATA[В Авиньоне вооруженный ножом преступник попытался напасть на полицейских, сообщает французская радиостанция Europe 1. Нападавший выкрикивал «Аллах акбар!». Полицейские открыли огонь на поражение. От полученных ранений нападавший скончался на месте происшествия. Какие-либо другие подробности пока не сообщаются.]]></description>
-      <pubDate>Thu, 29 Oct 2020 11:09:35 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[«Оскорблять чувства верующих недопустимо, и одновременно недопустимо убивать людей». Кремль — об убийствах из-за карикатур на пророка Мухаммеда]]></title>
-      <link>https://meduza.io/news/2020/10/29/oskorblyat-chuvstva-veruyuschih-nedopustimo-i-odnovremenno-nedopustimo-ubivat-lyudey-kreml-ob-ubiystvah-iz-za-karikatur-na-proroka-muhammeda</link>
-      <guid>https://meduza.io/news/2020/10/29/oskorblyat-chuvstva-veruyuschih-nedopustimo-i-odnovremenno-nedopustimo-ubivat-lyudey-kreml-ob-ubiystvah-iz-za-karikatur-na-proroka-muhammeda</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603968713/news/2020/10/29/oskorblyat-chuvstva-veruyuschih-nedopustimo-i-odnovremenno-nedopustimo-ubivat-lyudey-kreml-ob-ubiystvah-iz-za-karikatur-na-proroka-muhammeda" length="0" type="image/png"/>
-      <description><![CDATA[Пресс-секретарь президента РФ Дмитрий Песков назвал недопустимыми оскорбления чувств верующих и убийства людей как ответную месть за это. Таким образом он отреагировал на события во Франции, где из-за демонстрации карикатур сатирического журнала Charlie Hebdo на пророка Мухаммеда был убит местный учитель истории Самюэль Пати.]]></description>
-      <pubDate>Thu, 29 Oct 2020 10:51:53 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[«Это просто призыв к тому, чтобы не было маразма». Кремль — о запрете врачам публично высказываться о коронавирусе]]></title>
-      <link>https://meduza.io/news/2020/10/29/eto-prosto-prizyv-k-tomu-chtoby-ne-bylo-marazma-kreml-o-zaprete-vracham-publichno-vyskazyvatsya-o-koronaviruse</link>
-      <guid>https://meduza.io/news/2020/10/29/eto-prosto-prizyv-k-tomu-chtoby-ne-bylo-marazma-kreml-o-zaprete-vracham-publichno-vyskazyvatsya-o-koronaviruse</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603967072/news/2020/10/29/eto-prosto-prizyv-k-tomu-chtoby-ne-bylo-marazma-kreml-o-zaprete-vracham-publichno-vyskazyvatsya-o-koronaviruse" length="0" type="image/png"/>
-      <description><![CDATA[В Кремле не считают запретом указание Минздрава РФ подведомственным врачам согласовывать любые публичные комментарии о коронавирусе. Об этом в беседе с журналистами заявил пресс-секретарь президента РФ Дмитрий Песков.]]></description>
-      <pubDate>Thu, 29 Oct 2020 10:24:32 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Фигуранта дела «Нового величия» Павла Ребровского приговорили к шести годам колонии]]></title>
-      <link>https://meduza.io/news/2020/10/29/figuranta-dela-novogo-velichiya-pavla-rebrovskogo-prigovorili-k-shesti-godam-kolonii</link>
-      <guid>https://meduza.io/news/2020/10/29/figuranta-dela-novogo-velichiya-pavla-rebrovskogo-prigovorili-k-shesti-godam-kolonii</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603965997/news/2020/10/29/figuranta-dela-novogo-velichiya-pavla-rebrovskogo-prigovorili-k-shesti-godam-kolonii" length="0" type="image/png"/>
-      <description><![CDATA[Люблинский районный суд Москвы приговорил одного из фигурантов дела «Нового величия» Павла Ребровского к шести годам лишения свободы в колонии общего режима, сообщает корреспондент «Медузы» из зала суда.]]></description>
-      <pubDate>Thu, 29 Oct 2020 10:05:55 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[«Сделали из хлеба фигурки для шашек и играли». Баскетболистка сборной Беларуси Елена Левченко отсидела 15 суток в минском изоляторе на Окрестина, известном жестокостью силовиков. Мы с ней поговорили]]></title>
-      <link>https://meduza.io/feature/2020/10/29/sdelali-iz-hleba-figurki-dlya-shashek-i-igrali</link>
-      <guid>https://meduza.io/feature/2020/10/29/sdelali-iz-hleba-figurki-dlya-shashek-i-igrali</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603964507/feature/2020/10/29/sdelali-iz-hleba-figurki-dlya-shashek-i-igrali" length="0" type="image/png"/>
-      <description><![CDATA[30 сентября баскетболистку сборной Беларуси Елену Левченко — одну из самых известных спортсменок страны — задержали в минском аэропорту. Левченко собиралась улететь на реабилитацию, но вместо этого ее арестовали на 15 суток за активное участие в белорусских протестах: спортсменке вменили в вину участие в акциях 23 августа и 27 сентября, использовав фотографии из ее инстаграма в качестве доказательства. Половину месяца она провела в Центре изоляции правонарушителей (ЦИП) в переулке Окрестина, который в ходе подавления протестов из-за итогов президентских выборов стал символом жестокости белорусских силовиков. «Медуза» поговорила с Левченко об аресте и продолжающихся протестах в Беларуси.]]></description>
-      <pubDate>Thu, 29 Oct 2020 09:37:36 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Малыш-альпака прискакал к своей маме. И обнял! <3]]></title>
-      <link>https://meduza.io/shapito/2020/10/29/malysh-alpaka-priskakal-k-svoey-mame-i-obnyal-3</link>
-      <guid>https://meduza.io/shapito/2020/10/29/malysh-alpaka-priskakal-k-svoey-mame-i-obnyal-3</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603963916/shapito/2020/10/29/malysh-alpaka-priskakal-k-svoey-mame-i-obnyal-3" length="0" type="image/png"/>
-      <description><![CDATA[Маленький альпака, живущий на ферме в Огайо, увидел свою маму — подбежал к ней, встал на задние ножки и обнял. Нет-нет, и правда обнял, по-человечески! Есть версия, что детеныш просто приревновал свою маму к девочке, кормившей животных на этой ферме. Мама-альпака как раз направлялась в ее сторону. Обнимающихся альпак сняла на видео мама этой девочки и выложила в тикток. ]]></description>
-      <pubDate>Thu, 29 Oct 2020 09:31:56 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[В Москве за участие в акции Pussy Riot задержали журналиста Рената Давлетгильдеева]]></title>
-      <link>https://meduza.io/news/2020/10/29/v-moskve-za-uchastie-v-aktsii-pussy-riot-zaderzhali-zhurnalista-renata-davletgildeeva</link>
-      <guid>https://meduza.io/news/2020/10/29/v-moskve-za-uchastie-v-aktsii-pussy-riot-zaderzhali-zhurnalista-renata-davletgildeeva</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603963427/news/2020/10/29/v-moskve-za-uchastie-v-aktsii-pussy-riot-zaderzhali-zhurnalista-renata-davletgildeeva" length="0" type="image/png"/>
-      <description><![CDATA[Московские полицейские задержали журналиста Рената Давлетгильдеева, который принимал участие в акции Pussy Riot с радужными флагами, сообщает «Апология протеста». ]]></description>
-      <pubDate>Thu, 29 Oct 2020 09:22:32 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Александр Лукашенко уволил главу МВД Беларуси Юрия Караева]]></title>
-      <link>https://meduza.io/news/2020/10/29/aleksandr-lukashenko-uvolil-glavu-mvd-belarusi-yuriya-karaeva</link>
-      <guid>https://meduza.io/news/2020/10/29/aleksandr-lukashenko-uvolil-glavu-mvd-belarusi-yuriya-karaeva</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603963067/news/2020/10/29/aleksandr-lukashenko-uvolil-glavu-mvd-belarusi-yuriya-karaeva" length="0" type="image/png"/>
-      <description><![CDATA[Александр Лукашенко уволил министра внутренних дел Беларуси Юрия Караева, сообщил телеграм-канал «Пул Первого», близкий к пресс-службе Лукашенко.]]></description>
-      <pubDate>Thu, 29 Oct 2020 09:17:47 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Террорист напал с ножом на людей у базилики Нотр-Дам в Ницце. Три человека погибли]]></title>
-      <link>https://meduza.io/news/2020/10/29/terrorist-napal-s-nozhom-na-lyudey-u-baziliki-notr-dam-v-nitstse-tri-cheloveka-pogibli</link>
-      <guid>https://meduza.io/news/2020/10/29/terrorist-napal-s-nozhom-na-lyudey-u-baziliki-notr-dam-v-nitstse-tri-cheloveka-pogibli</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603963160/news/2020/10/29/terrorist-napal-s-nozhom-na-lyudey-u-baziliki-notr-dam-v-nitstse-tri-cheloveka-pogibli" length="0" type="image/png"/>
-      <description><![CDATA[В Ницце человек, вооруженный ножом, напал на прохожих возле базилики Нотр-Дам.]]></description>
-      <pubDate>Thu, 29 Oct 2020 09:16:33 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[«Мне пришлось научиться перешагивать через эту боль». Интервью легендарной Дебби Харри, солистки Blondie — о темных временах и жизни без сожалений]]></title>
-      <link>https://meduza.io/feature/2020/10/29/mne-prishlos-nauchitsya-pereshagivat-cherez-etu-bol</link>
-      <guid>https://meduza.io/feature/2020/10/29/mne-prishlos-nauchitsya-pereshagivat-cherez-etu-bol</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603962617/feature/2020/10/29/mne-prishlos-nauchitsya-pereshagivat-cherez-etu-bol" length="0" type="image/png"/>
-      <description><![CDATA[В издательстве МИФ вышли мемуары Дебби Харри «Сердце из стекла. Откровения солистки Blondie» (в оригинале «Face It», перевод Дарьи Смирновой). В книге Харри рассказывает о своей жизни — от невероятной популярности Blondie и съемок в фильмах Дэвида Кроненберга до личных кризисов и распада группы в 1982 году. По просьбе «Медузы» журналист Мария Лащева расспросила певицу о том, что для нее значит панк сегодня — и как пережить самые темные моменты в собственной биографии.]]></description>
-      <pubDate>Thu, 29 Oct 2020 09:10:17 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Власти Москвы задумались о введении QR-кодов для посещения кафе и ресторанов в дневное время]]></title>
-      <link>https://meduza.io/news/2020/10/29/vlasti-moskvy-zadumalis-o-vvedenii-qr-kodov-dlya-posescheniya-kafe-i-restoranov-v-dnevnoe-vremya</link>
-      <guid>https://meduza.io/news/2020/10/29/vlasti-moskvy-zadumalis-o-vvedenii-qr-kodov-dlya-posescheniya-kafe-i-restoranov-v-dnevnoe-vremya</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603961641/news/2020/10/29/vlasti-moskvy-zadumalis-o-vvedenii-qr-kodov-dlya-posescheniya-kafe-i-restoranov-v-dnevnoe-vremya" length="0" type="image/png"/>
-      <description><![CDATA[Власти Москвы рассматривают возможность введения регистрации посетителей любых кафе и ресторанов с помощью QR-кодов или СМС. Об этом пишет «Коммерсант» со ссылкой на источники на рынке общепита. ]]></description>
-      <pubDate>Thu, 29 Oct 2020 08:54:01 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Первый канал подаст в суд на критиков проекта «Голос» из-за комментариев об участии дочери телеведущего в шоу]]></title>
-      <link>https://meduza.io/news/2020/10/29/pervyy-kanal-podast-v-sud-na-kritikov-proekta-golos-iz-za-kommentariev-ob-uchastii-docheri-televeduschego-v-shou</link>
-      <guid>https://meduza.io/news/2020/10/29/pervyy-kanal-podast-v-sud-na-kritikov-proekta-golos-iz-za-kommentariev-ob-uchastii-docheri-televeduschego-v-shou</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603961602/news/2020/10/29/pervyy-kanal-podast-v-sud-na-kritikov-proekta-golos-iz-za-kommentariev-ob-uchastii-docheri-televeduschego-v-shou" length="0" type="image/png"/>
-      <description><![CDATA[Руководство Первого канала обратится в суд с исками против актера Станислава Садальского, лидера партии «Коммунисты России» Максима Сурайкина и музыкального критика Сергея Соседова из-за «ложных заявлений в адрес проекта Первого канала „Голос“». Сообщение телеканала приводит «Интерфакс»:]]></description>
-      <pubDate>Thu, 29 Oct 2020 08:53:22 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Суд над полицейскими, обвиняемыми по делу Голунова, пройдет в открытом режиме. Прокуратура просила закрыть процесс]]></title>
-      <link>https://meduza.io/news/2020/10/29/sud-nad-politseyskimi-obvinyaemymi-po-delu-golunova-proydet-v-otkrytom-rezhime-prokuratura-prosila-zakryt-protsess</link>
-      <guid>https://meduza.io/news/2020/10/29/sud-nad-politseyskimi-obvinyaemymi-po-delu-golunova-proydet-v-otkrytom-rezhime-prokuratura-prosila-zakryt-protsess</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603961404/news/2020/10/29/sud-nad-politseyskimi-obvinyaemymi-po-delu-golunova-proydet-v-otkrytom-rezhime-prokuratura-prosila-zakryt-protsess" length="0" type="image/png"/>
-      <description><![CDATA[Мосгорсуд будет в открытом режиме рассматривать дело полицейских, обвиняемых по делу журналиста «Медузы» Ивана Голунова. Слушания по существу начнутся 11 ноября.]]></description>
-      <pubDate>Thu, 29 Oct 2020 08:50:04 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[В России зафиксированы новые рекорды по суточному приросту заболевших и умерших от COVID-19]]></title>
-      <link>https://meduza.io/news/2020/10/29/v-rossii-zafiksirovany-novye-rekordy-po-sutochnomu-prirostu-zabolevshih-i-umershih-ot-covid-19</link>
-      <guid>https://meduza.io/news/2020/10/29/v-rossii-zafiksirovany-novye-rekordy-po-sutochnomu-prirostu-zabolevshih-i-umershih-ot-covid-19</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603961239/news/2020/10/29/v-rossii-zafiksirovany-novye-rekordy-po-sutochnomu-prirostu-zabolevshih-i-umershih-ot-covid-19" length="0" type="image/png"/>
-      <description><![CDATA[Общее число инфицированных новой коронавирусной инфекцией в России достигло 1 581 693 человек. На утро 29 октября в стране зарегистрированы 17 717 новых случаев заражения COVID-19, сообщает оперативный штаб по борьбе с вирусом.]]></description>
-      <pubDate>Thu, 29 Oct 2020 08:47:19 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[В Москве таксист облил себя бензином и пригрозил самосожжением в офисе «Яндекс.Такси». Его задержали]]></title>
-      <link>https://meduza.io/news/2020/10/29/v-moskve-taksist-oblil-sebya-benzinom-i-prigrozil-samosozhzheniem-v-ofise-yandeks-taksi-ego-zaderzhali</link>
-      <guid>https://meduza.io/news/2020/10/29/v-moskve-taksist-oblil-sebya-benzinom-i-prigrozil-samosozhzheniem-v-ofise-yandeks-taksi-ego-zaderzhali</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603958378/news/2020/10/29/v-moskve-taksist-oblil-sebya-benzinom-i-prigrozil-samosozhzheniem-v-ofise-yandeks-taksi-ego-zaderzhali" length="0" type="image/png"/>
-      <description><![CDATA[Мужчина, личность которого пока неизвестна, облил себя бензином и пригрозил самосожжением в офисе «Яндекс. Такси» на северо-востоке Москвы. Об этом сообщает РИА Новости со ссылкой на экстренные службы. Мужчина потребовал встречи с генеральным директором, пишет RT.]]></description>
-      <pubDate>Thu, 29 Oct 2020 07:57:36 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Росстат: 64% молодых семей хватает денег только на еду и одежду]]></title>
-      <link>https://meduza.io/news/2020/10/29/rosstat-64-molodyh-semey-hvataet-deneg-tolko-na-edu-i-odezhdu</link>
-      <guid>https://meduza.io/news/2020/10/29/rosstat-64-molodyh-semey-hvataet-deneg-tolko-na-edu-i-odezhdu</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603956286/news/2020/10/29/rosstat-64-molodyh-semey-hvataet-deneg-tolko-na-edu-i-odezhdu" length="0" type="image/png"/>
-      <description><![CDATA[Почти две трети молодых семей (64%) в России во втором квартале 2020 года могли позволить себе только покупку еды и одежды, но не товаров длительного пользования, следует из данных Росстата, которые проанализировал РБК.]]></description>
-      <pubDate>Thu, 29 Oct 2020 07:24:46 +0000</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Акцию «Возвращение имен» на Лубянке перенесли из-за коронавируса в онлайн-формат]]></title>
-      <link>https://meduza.io/news/2020/10/29/aktsiyu-vozvraschenie-imen-na-lubyanke-perenesli-iz-za-koronavirusa-v-onlayn-format</link>
-      <guid>https://meduza.io/news/2020/10/29/aktsiyu-vozvraschenie-imen-na-lubyanke-perenesli-iz-za-koronavirusa-v-onlayn-format</guid>
-      <enclosure url="https://meduza.io/imgly/share/1603955833/news/2020/10/29/aktsiyu-vozvraschenie-imen-na-lubyanke-perenesli-iz-za-koronavirusa-v-onlayn-format" length="0" type="image/png"/>
-      <description><![CDATA[Акция памяти жертв репрессий «Возвращение имен», которую ежегодно 29 октября проводит «Мемориал» у Соловецкого камня на Лубянке в Москве, в 2020 году пройдет в онлайн-формате. Как рассказала «Коммерсанту» пресс-секретарь организации Наталья Петрова, такой формат выбран «в связи с эпидемиологической обстановкой». ]]></description>
-      <pubDate>Thu, 29 Oct 2020 07:14:24 +0000</pubDate>
-    </item>
-  </channel>
-</rss>
+      <link>https://meduza-lite.vercel.app</link>
+      <language>ru</language>
+      <atom:link href="https://meduza-lite.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+      
+          <item>
+            <title><![CDATA[Сбербанк выкупил Rambler Group у Мамута]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/sberbank-vykupil-rambler-group-u-mamuta</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/sberbank-vykupil-rambler-group-u-mamuta</guid>
+            <description><![CDATA[Сбербанк выкупает у Александра Мамута 45% Rambler Group и таким образом увеличивает долю в компании до 100%. Об этом cообщается на сайте банка.]]></description>
+            <pubDate>Thu, 29 Oct 2020 17:15:57 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Сходил в бар. Хотел свергнуть власть. Павел Ребровский из дела «Нового величия» отказался признавать вину и получил шесть лет — хотя раньше следователи обещали ему условный срок. Репортаж Кристины Сафоновой]]></title>
+            <link>https://meduza-lite.vercel.app/feature/2020/10/29/shodil-v-bar-hotel-svergnut-vlast</link>
+            <guid>https://meduza-lite.vercel.app/feature/2020/10/29/shodil-v-bar-hotel-svergnut-vlast</guid>
+            <description><![CDATA[Люблинский районный суд Москвы 29 октября вынес приговор 33-летнему курьеру Павлу Ребровскому — последнему из фигурантов дела «Нового величия». По этому делу Ребровского судят уже второй раз: в апреле 2019 года его приговорили к двум с половиной годам колонии — перед этим он полностью признал вину в надежде получить условный срок. Спустя полгода от признательных показаний Ребровский отказался — и снова оказался на скамье подсудимых, а затем получил шесть лет колонии. За приговором в суде наблюдала спецкор «Медузы» Кристина Сафонова.]]></description>
+            <pubDate>Thu, 29 Oct 2020 16:58:13 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Белоруссия запретила въезд из Латвии, Литвы и Польши]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/belorussiya-zapretila-v-ezd-iz-latvii-litvy-i-polshi</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/belorussiya-zapretila-v-ezd-iz-latvii-litvy-i-polshi</guid>
+            <description><![CDATA[Белоруссия закрыла въезд в страну на сухопутных границах с Латвией, Литвой и Польшей. Как пишет Onliner.by, такое решение ранее никак не анонсировалось.]]></description>
+            <pubDate>Thu, 29 Oct 2020 16:12:26 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[«А что в 1937? Переехал?» В Москве в день памяти жертв политического террора мемориальные таблички дополнили вопросами о репрессиях]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/a-chto-v-1937-pereehal-v-moskve-v-den-pamyati-zhertv-politicheskogo-terrora-memorialnye-tablichki-dopolnili-voprosami-o-repressiyah</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/a-chto-v-1937-pereehal-v-moskve-v-den-pamyati-zhertv-politicheskogo-terrora-memorialnye-tablichki-dopolnili-voprosami-o-repressiyah</guid>
+            <description><![CDATA[В Москве 29 октября — в день памяти жертв политического террора — у мемориальных табличек некоторым ученым, поэтам и военным появились надписи, указывающие на то, что они были репрессированы, но на мемориальных знаках это не отражено.]]></description>
+            <pubDate>Thu, 29 Oct 2020 15:58:29 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Лукашенко пригрозил протестующим студентам «мерами о непризнании дипломов» зарубежных вузов]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/lukashenko-prigrozil-protestuyuschim-studentam-merami-o-nepriznanii-diplomov-zarubezhnyh-vuzov</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/lukashenko-prigrozil-protestuyuschim-studentam-merami-o-nepriznanii-diplomov-zarubezhnyh-vuzov</guid>
+            <description><![CDATA[Александр Лукашенко поручил правительству Белоруссии «принять меры», чтобы в республике не признавали дипломы зарубежных вузов. Об этом Лукашенко сообщил, комментируя протесты белорусских студентов, передает «Белта».]]></description>
+            <pubDate>Thu, 29 Oct 2020 15:18:43 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Уютный городок без улицы Ленина. Как власти старинной Тарусы неожиданно провели десоветизацию, раскололи город пополам и взволновали всю Россию. Репортаж Андрея Перцева]]></title>
+            <link>https://meduza-lite.vercel.app/feature/2020/10/29/uyutnyy-gorodok-bez-ulitsy-lenina</link>
+            <guid>https://meduza-lite.vercel.app/feature/2020/10/29/uyutnyy-gorodok-bez-ulitsy-lenina</guid>
+            <description><![CDATA[В октябре 2020 года городская дума Тарусы с подачи главы района Руслана Смоленского вернула улицам в историческом центре дореволюционные названия. Авторы и сторонники идеи говорят, что переименование требуется, чтобы выделиться из тысячи городов, где улицы носят одинаковые советские имена, а также избавиться от прославления революционеров и чекистов. Против идеи выступили коммунисты, обвинившие тарусские власти в «декоммунизации». Многих местных жителей возвращение прежних имен улиц (среди них есть, например, Лесопильная, Кирпичная и Огородная) тоже не устраивает. Кроме того, оказалось, что «историческими» и «традиционными» многие тарусяне считают именно советские названия. Спецкор «Медузы» Андрей Перцев съездил в Тарусу, чтобы посмотреть, как старинный райцентр в Калужской области справляется с неожиданным политическим кризисом.]]></description>
+            <pubDate>Thu, 29 Oct 2020 14:50:29 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Минюст включил «Арестантское уголовное единство» в список экстремистских организаций]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/minyust-vklyuchil-arestantskoe-ugolovnoe-edinstvo-v-spisok-ekstremistskih-organizatsiy</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/minyust-vklyuchil-arestantskoe-ugolovnoe-edinstvo-v-spisok-ekstremistskih-organizatsiy</guid>
+            <description><![CDATA[Минюст внес «международное общественное движение „Арестантское уголовное единство“» в список экстремистских организаций. Соответствующий реестр на сайте Минюста обновлен 29 октября.]]></description>
+            <pubDate>Thu, 29 Oct 2020 14:07:48 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Глава администрации Уфы умер от коронавируса]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/glava-administratsii-ufy-umer-ot-koronavirusa</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/glava-administratsii-ufy-umer-ot-koronavirusa</guid>
+            <description><![CDATA[Глава администрации Уфы Ульфат Мустафин умер от последствий коронавирусной инфекции. Об этом сообщает «Интерфакс».]]></description>
+            <pubDate>Thu, 29 Oct 2020 13:55:04 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Путина спросили о нетрадиционных методах денежно-кредитной политики. Угадайте, о чем «нетрадиционном» он стал говорить в ответ]]></title>
+            <link>https://meduza-lite.vercel.app/feature/2020/10/29/putina-sprosili-o-netraditsionnyh-metodah-denezhno-kreditnoy-politiki-ugadayte-o-chem-netraditsionnom-on-stal-govorit-v-otvet</link>
+            <guid>https://meduza-lite.vercel.app/feature/2020/10/29/putina-sprosili-o-netraditsionnyh-metodah-denezhno-kreditnoy-politiki-ugadayte-o-chem-netraditsionnom-on-stal-govorit-v-otvet</guid>
+            <description><![CDATA[Президент России Владимир Путин заявил 29 октября на инвестиционном форуме «Россия зовет!», что «с определенной осторожностью, но пониманием» относится к однополым бракам. Так он ответил на вопрос о нетрадиционных методах денежно-кредитной политики. Трансляцию выступления вел телеканал «Россия 24». Мы публикуем расшифровку речи Путина.]]></description>
+            <pubDate>Thu, 29 Oct 2020 12:51:42 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[У мамы разработчика из Самары не грузилась «Медуза». Он сделал для нее облегченную версию сайта. И не зря — теперь мама прочитает о сыне в новостях]]></title>
+            <link>https://meduza-lite.vercel.app/shapito/2020/10/29/u-mamy-razrabotchika-iz-samary-ne-gruzilas-meduza-on-sdelal-dlya-nee-oblegchennuyu-versiyu-sayta-i-ne-zrya-teper-mama-prochitaet-o-syne-v-novostyah</link>
+            <guid>https://meduza-lite.vercel.app/shapito/2020/10/29/u-mamy-razrabotchika-iz-samary-ne-gruzilas-meduza-on-sdelal-dlya-nee-oblegchennuyu-versiyu-sayta-i-ne-zrya-teper-mama-prochitaet-o-syne-v-novostyah</guid>
+            <description><![CDATA[Фронтенд-разработчик из Самары по имени Нуриль сделал для мамы облегченную версию «Медузы» — такую, чтобы можно было читать сайт со старого телефона и планшета.]]></description>
+            <pubDate>Thu, 29 Oct 2020 12:45:21 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Лукашенко предложил создавать вооруженные народные дружины «для защиты своих домов»]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/lukashenko-predlozhil-sozdavat-vooruzhennye-narodnye-druzhiny-dlya-zaschity-svoih-domov</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/lukashenko-predlozhil-sozdavat-vooruzhennye-narodnye-druzhiny-dlya-zaschity-svoih-domov</guid>
+            <description><![CDATA[Президент Белоруссии Александр Лукашенко предложил усилить роль народных дружин в обеспечении безопасности и общественного порядка в стране.]]></description>
+            <pubDate>Thu, 29 Oct 2020 12:37:53 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Море Лаптевых впервые не замерзло в октябре. Это случилось из-за глобального потепления? Замерзнет ли оно вообще? И отразится ли это на погоде? Объясняет климатолог Александр Кислов]]></title>
+            <link>https://meduza-lite.vercel.app/feature/2020/10/29/more-laptevyh-vpervye-ne-zamerzlo-v-oktyabre-eto-sluchilos-iz-za-globalnogo-potepleniya-zamerznet-li-ono-voobsche-i-otrazitsya-li-eto-na-pogode</link>
+            <guid>https://meduza-lite.vercel.app/feature/2020/10/29/more-laptevyh-vpervye-ne-zamerzlo-v-oktyabre-eto-sluchilos-iz-za-globalnogo-potepleniya-zamerznet-li-ono-voobsche-i-otrazitsya-li-eto-na-pogode</guid>
+            <description><![CDATA[В этом октябре море Лаптевых впервые за всю историю наблюдений не начало замерзать. Экологи объясняют это глобальным потеплением — несмотря на то, что из-за коронавируса производство, а соответственно и объем выбросов парниковых газов во всем мире сократилось. «Медуза» поговорила с климатологом Александром Кисловым о том, можем ли чем-то грозить такая ситуация с морем Лаптевых и какие есть проекты по борьбе с глобальным потеплением — среди них, например, разливать серную кислоту в стратосфере.]]></description>
+            <pubDate>Thu, 29 Oct 2020 12:22:11 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[«Они приговорены быть одни». Режиссер фильма «Тихий голос» рассказывает о своем герое — бойце ММА, который бежал из Чечни из-за своей гомосексуальности]]></title>
+            <link>https://meduza-lite.vercel.app/feature/2020/10/29/oni-prigovoreny-byt-odni</link>
+            <guid>https://meduza-lite.vercel.app/feature/2020/10/29/oni-prigovoreny-byt-odni</guid>
+            <description><![CDATA[Фильм «Тихий голос» — один из участников фестиваля «Артдокфест» в 2020 году — рассказывает о молодом человеке, успешном бойце ММА по имени Хаваж. Три года назад Хаваж вынужденно покинул Чечню после того, как старший брат узнал, что он гей. Из-за эмоциональных потрясений Хаваж потерял голос. Для безопасности ему пришлось отказаться от любимого спорта и общения с родственниками, он постоянно переезжает с места на место. Единственная связь с родиной — аудиосообщения матери, на которые Хаваж не может ответить. «Медуза» поговорила с режиссером фильма, работающим под псевдонимом Река Валерик. Он рассказал, почему даже в Европе геи из Чечни не могут чувствовать себя свободно и безопасно.]]></description>
+            <pubDate>Thu, 29 Oct 2020 12:19:34 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[В Ницце террорист убил трех человек в базилике Нотр-Дам. В Авиньоне — нападение на полицейских, в Саудовской Аравии — на охрану консульства Франции]]></title>
+            <link>https://meduza-lite.vercel.app/feature/2020/10/29/v-nitstse-terrorist-ubil-treh-chelovek-v-bazilike-notr-dam-v-avinone-napadenie-na-politseyskih-v-saudovskoy-aravii-na-ohranu-konsulstva-frantsii</link>
+            <guid>https://meduza-lite.vercel.app/feature/2020/10/29/v-nitstse-terrorist-ubil-treh-chelovek-v-bazilike-notr-dam-v-avinone-napadenie-na-politseyskih-v-saudovskoy-aravii-na-ohranu-konsulstva-frantsii</guid>
+            <description><![CDATA[В Ницце террорист утром 29 октября напал с ножом на посетителей базилики Нотр-Дам. В результате нападения погибли три человека; как уточняет Le Figaro, двое из них — мужчина и женщина — были убиты в самой базилике, еще одна женщина — в расположенном рядом кафе, где она пыталась спрятаться от преступника. Одна из жертв, по данным Nice-Matin, была обезглавлена. Нападавшего задержала полиция примерно через 10 минут после атаки, он получил ранения и был госпитализирован. О его личности пока ничего не сообщается. После нападения полиция оцепила район и проверила его на наличие взрывных устройств. Власти Ниццы распорядились закрыть все церкви и другие культовые сооружения города и взять их под охрану. ]]></description>
+            <pubDate>Thu, 29 Oct 2020 11:33:40 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Певица Граймс убаюкивает сына X Æ A-XII нейроколыбельной. Она записала ее вместе с Endel — стартапом, основанным выходцами из России]]></title>
+            <link>https://meduza-lite.vercel.app/shapito/2020/10/29/pevitsa-grayms-ubayukivaet-svoego-syna-x-ae-a-xii-neyrokolybelnoy-ona-zapisala-ee-vmeste-s-endel-startapom-osnovannym-vyhodtsami-iz-rossii</link>
+            <guid>https://meduza-lite.vercel.app/shapito/2020/10/29/pevitsa-grayms-ubayukivaet-svoego-syna-x-ae-a-xii-neyrokolybelnoy-ona-zapisala-ee-vmeste-s-endel-startapom-osnovannym-vyhodtsami-iz-rossii</guid>
+            <description><![CDATA[Канадской певице Граймс очень не нравились детские песенки. Она не хотела включать их сыну от Илона Маска по имени X Æ A-XII и «портить ему знакомство с миром».]]></description>
+            <pubDate>Thu, 29 Oct 2020 11:16:12 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[В Авиньоне вооруженный ножом преступник попытался напасть на полицейских. Он кричал «Аллах акбар!]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/v-avinone-vooruzhennyy-nozhom-prestupnik-popytalsya-napast-na-politseyskih-on-krichal-allah-akbar</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/v-avinone-vooruzhennyy-nozhom-prestupnik-popytalsya-napast-na-politseyskih-on-krichal-allah-akbar</guid>
+            <description><![CDATA[В Авиньоне вооруженный ножом преступник попытался напасть на полицейских, сообщает французская радиостанция Europe 1. Нападавший выкрикивал «Аллах акбар!». Полицейские открыли огонь на поражение. От полученных ранений нападавший скончался на месте происшествия. Какие-либо другие подробности пока не сообщаются.]]></description>
+            <pubDate>Thu, 29 Oct 2020 11:09:35 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[«Оскорблять чувства верующих недопустимо, и одновременно недопустимо убивать людей». Кремль — об убийствах из-за карикатур на пророка Мухаммеда]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/oskorblyat-chuvstva-veruyuschih-nedopustimo-i-odnovremenno-nedopustimo-ubivat-lyudey-kreml-ob-ubiystvah-iz-za-karikatur-na-proroka-muhammeda</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/oskorblyat-chuvstva-veruyuschih-nedopustimo-i-odnovremenno-nedopustimo-ubivat-lyudey-kreml-ob-ubiystvah-iz-za-karikatur-na-proroka-muhammeda</guid>
+            <description><![CDATA[Пресс-секретарь президента РФ Дмитрий Песков назвал недопустимыми оскорбления чувств верующих и убийства людей как ответную месть за это. Таким образом он отреагировал на события во Франции, где из-за демонстрации карикатур сатирического журнала Charlie Hebdo на пророка Мухаммеда был убит местный учитель истории Самюэль Пати.]]></description>
+            <pubDate>Thu, 29 Oct 2020 10:51:53 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[«Это просто призыв к тому, чтобы не было маразма». Кремль — о запрете врачам публично высказываться о коронавирусе]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/eto-prosto-prizyv-k-tomu-chtoby-ne-bylo-marazma-kreml-o-zaprete-vracham-publichno-vyskazyvatsya-o-koronaviruse</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/eto-prosto-prizyv-k-tomu-chtoby-ne-bylo-marazma-kreml-o-zaprete-vracham-publichno-vyskazyvatsya-o-koronaviruse</guid>
+            <description><![CDATA[В Кремле не считают запретом указание Минздрава РФ подведомственным врачам согласовывать любые публичные комментарии о коронавирусе. Об этом в беседе с журналистами заявил пресс-секретарь президента РФ Дмитрий Песков.]]></description>
+            <pubDate>Thu, 29 Oct 2020 10:24:32 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Фигуранта дела «Нового величия» Павла Ребровского приговорили к шести годам колонии]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/figuranta-dela-novogo-velichiya-pavla-rebrovskogo-prigovorili-k-shesti-godam-kolonii</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/figuranta-dela-novogo-velichiya-pavla-rebrovskogo-prigovorili-k-shesti-godam-kolonii</guid>
+            <description><![CDATA[Люблинский районный суд Москвы приговорил одного из фигурантов дела «Нового величия» Павла Ребровского к шести годам лишения свободы в колонии общего режима, сообщает корреспондент «Медузы» из зала суда.]]></description>
+            <pubDate>Thu, 29 Oct 2020 10:05:55 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[«Сделали из хлеба фигурки для шашек и играли». Баскетболистка сборной Беларуси Елена Левченко отсидела 15 суток в минском изоляторе на Окрестина, известном жестокостью силовиков. Мы с ней поговорили]]></title>
+            <link>https://meduza-lite.vercel.app/feature/2020/10/29/sdelali-iz-hleba-figurki-dlya-shashek-i-igrali</link>
+            <guid>https://meduza-lite.vercel.app/feature/2020/10/29/sdelali-iz-hleba-figurki-dlya-shashek-i-igrali</guid>
+            <description><![CDATA[30 сентября баскетболистку сборной Беларуси Елену Левченко — одну из самых известных спортсменок страны — задержали в минском аэропорту. Левченко собиралась улететь на реабилитацию, но вместо этого ее арестовали на 15 суток за активное участие в белорусских протестах: спортсменке вменили в вину участие в акциях 23 августа и 27 сентября, использовав фотографии из ее инстаграма в качестве доказательства. Половину месяца она провела в Центре изоляции правонарушителей (ЦИП) в переулке Окрестина, который в ходе подавления протестов из-за итогов президентских выборов стал символом жестокости белорусских силовиков. «Медуза» поговорила с Левченко об аресте и продолжающихся протестах в Беларуси.]]></description>
+            <pubDate>Thu, 29 Oct 2020 09:37:36 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Малыш-альпака прискакал к своей маме. И обнял! <3]]></title>
+            <link>https://meduza-lite.vercel.app/shapito/2020/10/29/malysh-alpaka-priskakal-k-svoey-mame-i-obnyal-3</link>
+            <guid>https://meduza-lite.vercel.app/shapito/2020/10/29/malysh-alpaka-priskakal-k-svoey-mame-i-obnyal-3</guid>
+            <description><![CDATA[Маленький альпака, живущий на ферме в Огайо, увидел свою маму — подбежал к ней, встал на задние ножки и обнял. Нет-нет, и правда обнял, по-человечески! Есть версия, что детеныш просто приревновал свою маму к девочке, кормившей животных на этой ферме. Мама-альпака как раз направлялась в ее сторону. Обнимающихся альпак сняла на видео мама этой девочки и выложила в тикток. ]]></description>
+            <pubDate>Thu, 29 Oct 2020 09:31:56 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[В Москве за участие в акции Pussy Riot задержали журналиста Рената Давлетгильдеева]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/v-moskve-za-uchastie-v-aktsii-pussy-riot-zaderzhali-zhurnalista-renata-davletgildeeva</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/v-moskve-za-uchastie-v-aktsii-pussy-riot-zaderzhali-zhurnalista-renata-davletgildeeva</guid>
+            <description><![CDATA[Московские полицейские задержали журналиста Рената Давлетгильдеева, который принимал участие в акции Pussy Riot с радужными флагами, сообщает «Апология протеста». ]]></description>
+            <pubDate>Thu, 29 Oct 2020 09:22:32 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Александр Лукашенко уволил главу МВД Беларуси Юрия Караева]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/aleksandr-lukashenko-uvolil-glavu-mvd-belarusi-yuriya-karaeva</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/aleksandr-lukashenko-uvolil-glavu-mvd-belarusi-yuriya-karaeva</guid>
+            <description><![CDATA[Александр Лукашенко уволил министра внутренних дел Беларуси Юрия Караева, сообщил телеграм-канал «Пул Первого», близкий к пресс-службе Лукашенко.]]></description>
+            <pubDate>Thu, 29 Oct 2020 09:17:47 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Террорист напал с ножом на людей у базилики Нотр-Дам в Ницце. Три человека погибли]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/terrorist-napal-s-nozhom-na-lyudey-u-baziliki-notr-dam-v-nitstse-tri-cheloveka-pogibli</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/terrorist-napal-s-nozhom-na-lyudey-u-baziliki-notr-dam-v-nitstse-tri-cheloveka-pogibli</guid>
+            <description><![CDATA[В Ницце человек, вооруженный ножом, напал на прохожих возле базилики Нотр-Дам.]]></description>
+            <pubDate>Thu, 29 Oct 2020 09:16:33 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[«Мне пришлось научиться перешагивать через эту боль». Интервью легендарной Дебби Харри, солистки Blondie — о темных временах и жизни без сожалений]]></title>
+            <link>https://meduza-lite.vercel.app/feature/2020/10/29/mne-prishlos-nauchitsya-pereshagivat-cherez-etu-bol</link>
+            <guid>https://meduza-lite.vercel.app/feature/2020/10/29/mne-prishlos-nauchitsya-pereshagivat-cherez-etu-bol</guid>
+            <description><![CDATA[В издательстве МИФ вышли мемуары Дебби Харри «Сердце из стекла. Откровения солистки Blondie» (в оригинале «Face It», перевод Дарьи Смирновой). В книге Харри рассказывает о своей жизни — от невероятной популярности Blondie и съемок в фильмах Дэвида Кроненберга до личных кризисов и распада группы в 1982 году. По просьбе «Медузы» журналист Мария Лащева расспросила певицу о том, что для нее значит панк сегодня — и как пережить самые темные моменты в собственной биографии.]]></description>
+            <pubDate>Thu, 29 Oct 2020 09:10:17 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Власти Москвы задумались о введении QR-кодов для посещения кафе и ресторанов в дневное время]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/vlasti-moskvy-zadumalis-o-vvedenii-qr-kodov-dlya-posescheniya-kafe-i-restoranov-v-dnevnoe-vremya</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/vlasti-moskvy-zadumalis-o-vvedenii-qr-kodov-dlya-posescheniya-kafe-i-restoranov-v-dnevnoe-vremya</guid>
+            <description><![CDATA[Власти Москвы рассматривают возможность введения регистрации посетителей любых кафе и ресторанов с помощью QR-кодов или СМС. Об этом пишет «Коммерсант» со ссылкой на источники на рынке общепита. ]]></description>
+            <pubDate>Thu, 29 Oct 2020 08:54:01 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Первый канал подаст в суд на критиков проекта «Голос» из-за комментариев об участии дочери телеведущего в шоу]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/pervyy-kanal-podast-v-sud-na-kritikov-proekta-golos-iz-za-kommentariev-ob-uchastii-docheri-televeduschego-v-shou</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/pervyy-kanal-podast-v-sud-na-kritikov-proekta-golos-iz-za-kommentariev-ob-uchastii-docheri-televeduschego-v-shou</guid>
+            <description><![CDATA[Руководство Первого канала обратится в суд с исками против актера Станислава Садальского, лидера партии «Коммунисты России» Максима Сурайкина и музыкального критика Сергея Соседова из-за «ложных заявлений в адрес проекта Первого канала „Голос“». Сообщение телеканала приводит «Интерфакс»:]]></description>
+            <pubDate>Thu, 29 Oct 2020 08:53:22 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[Суд над полицейскими, обвиняемыми по делу Голунова, пройдет в открытом режиме. Прокуратура просила закрыть процесс]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/sud-nad-politseyskimi-obvinyaemymi-po-delu-golunova-proydet-v-otkrytom-rezhime-prokuratura-prosila-zakryt-protsess</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/sud-nad-politseyskimi-obvinyaemymi-po-delu-golunova-proydet-v-otkrytom-rezhime-prokuratura-prosila-zakryt-protsess</guid>
+            <description><![CDATA[Мосгорсуд будет в открытом режиме рассматривать дело полицейских, обвиняемых по делу журналиста «Медузы» Ивана Голунова. Слушания по существу начнутся 11 ноября.]]></description>
+            <pubDate>Thu, 29 Oct 2020 08:50:04 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[В России зафиксированы новые рекорды по суточному приросту заболевших и умерших от COVID-19]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/v-rossii-zafiksirovany-novye-rekordy-po-sutochnomu-prirostu-zabolevshih-i-umershih-ot-covid-19</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/v-rossii-zafiksirovany-novye-rekordy-po-sutochnomu-prirostu-zabolevshih-i-umershih-ot-covid-19</guid>
+            <description><![CDATA[Общее число инфицированных новой коронавирусной инфекцией в России достигло 1 581 693 человек. На утро 29 октября в стране зарегистрированы 17 717 новых случаев заражения COVID-19, сообщает оперативный штаб по борьбе с вирусом.]]></description>
+            <pubDate>Thu, 29 Oct 2020 08:47:19 +0000</pubDate>
+          </item>
+        
+          <item>
+            <title><![CDATA[В Москве таксист облил себя бензином и пригрозил самосожжением в офисе «Яндекс.Такси». Его задержали]]></title>
+            <link>https://meduza-lite.vercel.app/news/2020/10/29/v-moskve-taksist-oblil-sebya-benzinom-i-prigrozil-samosozhzheniem-v-ofise-yandeks-taksi-ego-zaderzhali</link>
+            <guid>https://meduza-lite.vercel.app/news/2020/10/29/v-moskve-taksist-oblil-sebya-benzinom-i-prigrozil-samosozhzheniem-v-ofise-yandeks-taksi-ego-zaderzhali</guid>
+            <description><![CDATA[Мужчина, личность которого пока неизвестна, облил себя бензином и пригрозил самосожжением в офисе «Яндекс. Такси» на северо-востоке Москвы. Об этом сообщает РИА Новости со ссылкой на экстренные службы. Мужчина потребовал встречи с генеральным директором, пишет RT.]]></description>
+            <pubDate>Thu, 29 Oct 2020 07:57:36 +0000</pubDate>
+          </item>
+        
+    </channel>
+  </rss>
