@@ -1,4 +1,5 @@
-import { getLatestNews } from 'lib/api';
+import { writeFileSync } from 'fs';
+import { getLatestNews, getRss } from 'lib/api';
 import { formatDate } from 'lib/helpers';
 import Page from 'components/Page';
 import styles from 'styles/Home.module.css';
@@ -35,6 +36,9 @@ const Home = (props) => {
 
 export const getStaticProps = async () => {
   const data = await getLatestNews();
+  const rss = await getRss();
+  writeFileSync('./public/rss.xml', rss);
+
   const news = data.map((item) => {
     const { title, datetime, url, second_title } = item;
     const { date, time } = formatDate(datetime);
