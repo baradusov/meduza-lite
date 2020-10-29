@@ -1,0 +1,117 @@
+import Embed from 'components/Embed';
+import styles from './index.module.css';
+
+const BlockContent = (props) => {
+  const { blocks, articleUrl } = props;
+  const normalizeUrl = (url) => {
+    return url.includes('https://meduza.io') ? url : `https://meduza.io/${url}`;
+  };
+
+  return (
+    <div className={styles.content}>
+      {blocks.map((block) => {
+        switch (block.type) {
+          case 'lead': {
+            return (
+              <p
+                className={styles.lead}
+                key={block.id}
+                dangerouslySetInnerHTML={{ __html: block.data }}
+              />
+            );
+          }
+          case 'blockquote': {
+            return (
+              <blockquote
+                className={styles.blockquote}
+                key={block.id}
+                dangerouslySetInnerHTML={{ __html: block.data }}
+              />
+            );
+          }
+          case 'h3': {
+            return (
+              <h3
+                className={styles.sectionTitle}
+                key={block.id}
+                dangerouslySetInnerHTML={{ __html: block.data }}
+              />
+            );
+          }
+          case 'p': {
+            return (
+              <p
+                className={styles.newsText}
+                key={block.id}
+                dangerouslySetInnerHTML={{
+                  __html: block.data.replace(/https:\/\/meduza.io\//g, '/'), // для внутренних ссылок
+                }}
+              />
+            );
+          }
+          case 'context_p': {
+            return (
+              <p
+                className={styles.contextText}
+                key={block.id}
+                dangerouslySetInnerHTML={{ __html: block.data }}
+              />
+            );
+          }
+          case 'image': {
+            return (
+              <figure className={styles.figure} key={block.id}>
+                <img src={normalizeUrl(block.data.large_url)} />
+                <figcaption>
+                  <p dangerouslySetInnerHTML={{ __html: block.data.caption }} />
+                </figcaption>
+              </figure>
+            );
+          }
+          case 'quote': {
+            return (
+              <blockquote
+                className={styles.blockquote}
+                key={block.id}
+                dangerouslySetInnerHTML={{ __html: block.data }}
+              />
+            );
+          }
+          case 'ul': {
+            return (
+              <ul>
+                {block.data.map((item, index) => {
+                  return (
+                    <li
+                      className={styles.listItem}
+                      key={index}
+                      dangerouslySetInnerHTML={{ __html: item }}
+                    />
+                  );
+                })}
+              </ul>
+            );
+          }
+          case 'spoiler': {
+            return (
+              <div className={styles.spoiler}>
+                <h3 className={styles.spolerTitle}>{block.title}</h3>
+                <details>
+                  <summary style={{ cursor: 'pointer' }}>
+                    {block.btn_title}
+                  </summary>
+                  <BlockContent blocks={block.blocks} />
+                </details>
+              </div>
+            );
+          }
+          case 'embed': {
+            return <Embed key={block.id} data={block.data} />;
+          }
+        }
+      })}
+    </div>
+  );
+};
+
+export default BlockContent;

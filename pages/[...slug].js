@@ -1,0 +1,117 @@
+import Head from 'next/head';
+import { getArticle, getLatestNews } from 'lib/api';
+import { formatDate } from 'lib/helpers';
+import Page from 'components/Page';
+import BlockContent from 'components/BlockContent';
+import styles from 'styles/Home.module.css';
+
+const News = (props) => {
+  const { data } = props;
+
+  if (!data) {
+    return (
+      <Page>
+        <Head>
+          <title>Meduza, лёгкая версия</title>
+        </Head>
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+          }}
+        >
+          <p style={{ textAlign: 'center' }}>
+            Такой страницы не существует.
+          </p>
+        </div>
+      </Page>
+    );
+  }
+
+  const renderContent = () => {
+    if (data.content.blocks) {
+      return (
+        <BlockContent blocks={data.content.blocks} articleUrl={data.url} />
+      );
+    }
+
+    return (
+      <>
+        <p>Этот формат Медузы пока не поддерживается. </p>
+        <a href={`https://meduza.io/${data.url}`}>Читайте на Медузе.</a>
+      </>
+    );
+  };
+
+  return (
+    <Page>
+      <Head>
+        <title>{data.title} | Meduza, лёгкая версия</title>
+      </Head>
+      <div className={styles.titleContainer}>
+        <h2 className={styles.newsTitle}>{data.title}</h2>
+        {data.secondTitle && (
+          <p className={styles.secondTitle}>{data.secondTitle}</p>
+        )}
+      </div>
+      <div className={styles.subtitle}>
+        <p className={styles.newsDate}>
+          {data.time}, {data.date}
+        </p>
+        <a href={`https://meduza.io/${data.url}`}>Читать на Медузе.</a>
+      </div>
+
+      {renderContent()}
+    </Page>
+  );
+};
+
+export const getStaticProps = async ({ params }) => {
+  try {
+    const { slug } = params;
+    const { content, datetime, title, second_title, url } = await getArticle(
+      slug.join('/')
+    );
+    const { date, time } = formatDate(datetime);
+
+    return {
+      props: {
+        data: {
+          content,
+          date,
+          time,
+          title,
+          secondTitle: second_title || null,
+          url,
+        },
+      },
+      revalidate: 60 * 30, // каждые 30 минут
+    };
+  } catch (error) {
+    return {
+      props: {
+        data: false,
+      },
+      revalidate: 60 * 30, // каждые 30 минут
+    };
+  }
+};
+
+export const getStaticPaths = async () => {
+  const news = await getLatestNews();
+
+  const paths = news.map(({ url }) => ({
+    params: {
+      slug: url.split('/'),
+    },
+  }));
+
+  return { paths, fallback: 'blocking' };
+};
+
+export const config = {
+  unstable_runtimeJS: false,
+};
+
+export default News;

@@ -1,0 +1,41 @@
+.container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  max-width: 825px;
+  margin-bottom: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 48px;
+}
+
+.titleLink {
+  box-shadow: none;
+}
+
+.subtitle {
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  .title {
+    font-size: 64px;
+  }
+}

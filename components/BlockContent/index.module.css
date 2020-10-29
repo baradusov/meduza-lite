@@ -1,0 +1,56 @@
+.lead {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.sectionTitle {
+  margin-top: 45px;
+}
+
+.newsText {
+  font-size: 18px;
+}
+
+.contextText {
+  position: relative;
+  padding-left: 38px;
+  font-size: 18px;
+}
+
+.contextText::before {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: 8px;
+  content: '\2022';
+  text-align: center;
+  color: #b88b59;
+  font-size: 18px;
+  line-height: inherit;
+}
+
+.blockquote {
+  font-style: italic;
+}
+
+.figure {
+  margin: 0;
+}
+
+.listItem {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.spoiler {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+.spolerTitle {
+  margin-top: 0;
+}
