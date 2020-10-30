@@ -41,7 +41,7 @@ export const getStaticProps = async () => {
   const rssJson = xmlParser.parse(xml);
   const rss = generateRss(rssJson.rss.channel.item);
 
-  writeFileSync('./public/rss.xml', rss);
+  writeFileSync(`${process.cwd()}/public/rss.xml`, rss);
 
   const news = data.map((item) => {
     const { title, datetime, url, second_title } = item;
