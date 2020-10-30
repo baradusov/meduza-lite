@@ -50,7 +50,7 @@ const Page = (props) => {
         </p>
 
         <p style={{ textAlign: 'center' }}>
-          <a href="/api/rss/" target="_blank" rel="noopener noreferrer">
+          <a href="/api/rss" target="_blank" rel="noopener noreferrer">
             RSS
           </a>
         </p>
