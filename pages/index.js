@@ -1,4 +1,5 @@
-import { writeFileSync } from 'fs';
+// import { writeFileSync } from 'fs';
+// import path from 'path';
 import xmlParser from 'fast-xml-parser';
 import { getLatestNews, getRss, generateRss } from 'lib/api';
 import { formatDate } from 'lib/helpers';
@@ -41,7 +42,7 @@ export const getStaticProps = async () => {
   const rssJson = xmlParser.parse(xml);
   const rss = generateRss(rssJson.rss.channel.item);
 
-  writeFileSync(`${process.cwd()}/public/rss.xml`, rss);
+  // writeFileSync(path.resolve('./public', 'rss.xml'), rss);
 
   const news = data.map((item) => {
     const { title, datetime, url, second_title } = item;
