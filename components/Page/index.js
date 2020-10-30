@@ -12,6 +12,12 @@ const Page = (props) => {
         <title>Meduza, лёгкая версия</title>
         <meta name="description" content="Лёгкая версия Медузы" />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Meduza, лёгкая версия"
+          href="https://meduza-lite.vercel.app/api/rss"
+        />
       </Head>
 
       <header className={styles.header}>
@@ -32,14 +38,22 @@ const Page = (props) => {
       <main className={styles.main}>{children}</main>
 
       <footer>
-        <p style={{textAlign: 'center'}}>
+        <p style={{ textAlign: 'center' }}>
           Обновление каждые 30 минут
           <br />
           Последнее было:
           <br />
           {time} по мск, {date}
         </p>
-        <p>Связаться можно <a href="https://t.me/baradusov">через телеграм</a></p>
+        <p>
+          Связаться можно <a href="https://t.me/baradusov">через телеграм</a>
+        </p>
+
+        <p style={{ textAlign: 'center' }}>
+          <a href="/api/rss/" target="_blank" rel="noopener noreferrer">
+            RSS
+          </a>
+        </p>
       </footer>
     </div>
   );
