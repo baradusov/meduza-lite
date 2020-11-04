@@ -6,6 +6,9 @@ const BlockContent = (props) => {
   const normalizeUrl = (url) => {
     return url.includes('https://meduza.io') ? url : `https://meduza.io/${url}`;
   };
+  const replaceOriginalUrlWithLite = (blockData) => {
+    return blockData.replace(/https:\/\/meduza.io\//g, '/');
+  };
 
   return (
     <div className={styles.content}>
@@ -44,7 +47,7 @@ const BlockContent = (props) => {
                 className={styles.newsText}
                 key={block.id}
                 dangerouslySetInnerHTML={{
-                  __html: block.data.replace(/https:\/\/meduza.io\//g, '/'), // для внутренних ссылок
+                  __html: replaceOriginalUrlWithLite(block.data),
                 }}
               />
             );
@@ -79,7 +82,7 @@ const BlockContent = (props) => {
           }
           case 'ul': {
             return (
-              <ul>
+              <ul key={block.id}>
                 {block.data.map((item, index) => {
                   return (
                     <li
@@ -94,7 +97,7 @@ const BlockContent = (props) => {
           }
           case 'spoiler': {
             return (
-              <div className={styles.spoiler}>
+              <div className={styles.spoiler} key={block.id}>
                 <h3 className={styles.spolerTitle}>{block.title}</h3>
                 <details>
                   <summary style={{ cursor: 'pointer' }}>
