@@ -48,9 +48,27 @@ const Embed = (props) => {
           </a>
         );
       }
+      case 'telegram': {
+        const $ = cheerio.load(data.html);
+        const telegramUrl = $('script').attr('data-telegram-post');
+  
+        return (
+          <a
+            href={`https://t.me/${telegramUrl}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'inline-block', marginBottom: 10 }}
+          >
+            Открыть в Telegram
+          </a>
+        );
+      }
       default: {
         return (
-          <blockquote>Здесь должен быть эмбед, но он пока не поддерживается. Придётся смотреть на Медузе.</blockquote>
+          <blockquote>
+            Здесь должен быть эмбед, но он пока не поддерживается. Придётся
+            смотреть на Медузе.
+          </blockquote>
         );
       }
     }
