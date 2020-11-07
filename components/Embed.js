@@ -54,7 +54,7 @@ const Embed = (props) => {
   
         return (
           <a
-            href={`https://t.me/${telegramUrl}`}
+            href={`https://t.me${telegramUrl}`}
             target="_blank"
             rel="noopener noreferrer"
             style={{ display: 'inline-block', marginBottom: 10 }}
