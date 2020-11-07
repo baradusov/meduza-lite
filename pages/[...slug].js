@@ -21,9 +21,7 @@ const News = (props) => {
             alignItems: 'center',
           }}
         >
-          <p style={{ textAlign: 'center' }}>
-            Такой страницы не существует.
-          </p>
+          <p style={{ textAlign: 'center' }}>Такой страницы не существует.</p>
         </div>
       </Page>
     );
@@ -31,9 +29,19 @@ const News = (props) => {
 
   const renderContent = () => {
     if (data.content.blocks) {
-      return (
-        <BlockContent blocks={data.content.blocks} articleUrl={data.url} />
-      );
+      return <BlockContent blocks={data.content.blocks} />;
+    }
+
+    if (data.content.slides) {
+      return data.content.slides.map((slide) => (
+        <BlockContent blocks={slide.blocks} />
+      ));
+    }
+
+    if (data.content.cards) {
+      return data.content.cards.map((card) => (
+        <BlockContent blocks={card.blocks} />
+      ));
     }
 
     return (

@@ -2,7 +2,7 @@ import Embed from 'components/Embed';
 import styles from './index.module.css';
 
 const BlockContent = (props) => {
-  const { blocks, articleUrl } = props;
+  const { blocks } = props;
   const normalizeUrl = (url) => {
     return url.includes('https://meduza.io') ? url : `https://meduza.io/${url}`;
   };
@@ -38,6 +38,15 @@ const BlockContent = (props) => {
                 className={styles.sectionTitle}
                 key={block.id}
                 dangerouslySetInnerHTML={{ __html: block.data }}
+              />
+            );
+          }
+          case 'card_title': {
+            return (
+              <h3
+                className={styles.sectionTitle}
+                key={block.id}
+                dangerouslySetInnerHTML={{ __html: block.data.text }}
               />
             );
           }
