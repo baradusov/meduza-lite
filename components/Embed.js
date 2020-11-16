@@ -11,7 +11,7 @@ const Embed = (props) => {
 
         return (
           <a href={youtubeUrl} target="_blank" rel="noopener noreferrer">
-            Открыть в YouTube
+            Посмотреть видео на YouTube
           </a>
         );
       }
@@ -26,7 +26,7 @@ const Embed = (props) => {
             rel="noopener noreferrer"
             style={{ display: 'inline-block', marginBottom: 10 }}
           >
-            Открыть в Instagram
+            Посмотреть пост в Instagram
           </a>
         );
       }
@@ -44,7 +44,7 @@ const Embed = (props) => {
             rel="noopener noreferrer"
             style={{ display: 'inline-block', marginBottom: 10 }}
           >
-            Открыть в Twitter
+            Посмотреть твит
           </a>
         );
       }
@@ -59,7 +59,7 @@ const Embed = (props) => {
             rel="noopener noreferrer"
             style={{ display: 'inline-block', marginBottom: 10 }}
           >
-            Открыть в Telegram
+           Посмотреть пост в Telegram
           </a>
         );
       }
