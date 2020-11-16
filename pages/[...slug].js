@@ -28,6 +28,10 @@ const News = (props) => {
   }
 
   const renderContent = () => {
+    if (data.video) {
+      return <BlockContent blocks={data.content.blocks} isVideo />;
+    }
+
     if (data.content.blocks) {
       return <BlockContent blocks={data.content.blocks} />;
     }
@@ -78,25 +82,21 @@ const News = (props) => {
 export const getStaticProps = async ({ params }) => {
   try {
     const { slug } = params;
-    const { content, datetime, title, second_title, url } = await getArticle(
-      slug.join('/')
-    );
-    const { date, time } = formatDate(datetime);
+    const articleData = await getArticle(slug.join('/'));
+    const { date, time } = formatDate(articleData.datetime);
 
     return {
       props: {
         data: {
-          content,
+          ...articleData,
           date,
           time,
-          title,
-          secondTitle: second_title || null,
-          url,
         },
       },
       revalidate: 60 * 30, // каждые 30 минут
     };
   } catch (error) {
+    console.log(error);
     return {
       props: {
         data: false,

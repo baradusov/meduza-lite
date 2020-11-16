@@ -1,18 +1,70 @@
 const cheerio = require('cheerio');
 
 const Embed = (props) => {
-  const { data } = props;
+  const { data, isVideo } = props;
+
+  if (isVideo) {
+    const $ = cheerio.load(data.html);
+    const youtubeUrl = $('iframe').attr('src');
+    const pathname = new URL(youtubeUrl).pathname;
+    const [_, id] = pathname.split('/embed/');
+    const previewImage = (id) =>
+      `https://img.youtube.com/vi/${id}/sddefault.jpg`;
+
+    return (
+      <div>
+        <a
+          href={`https:///youtube.com/watch?v=${id}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Посмотреть видео на YouTube"
+        >
+          <img src={previewImage(id)} />
+        </a>
+        <p>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={`https:///youtube.com/watch?v=${id}`}
+          >
+            Смотреть на Youtube
+          </a>
+        </p>
+        <p dangerouslySetInnerHTML={{ __html: data.caption }} />
+      </div>
+    );
+  }
 
   const renderEmbed = () => {
     switch (data.provider) {
       case 'youtube': {
         const $ = cheerio.load(data.html);
         const youtubeUrl = $('iframe').attr('src');
+        const pathname = new URL(youtubeUrl).pathname;
+        const [_, id] = pathname.split('/embed/');
+        const previewImage = (id) =>
+          `https://img.youtube.com/vi/${id}/sddefault.jpg`;
 
         return (
-          <a href={youtubeUrl} target="_blank" rel="noopener noreferrer">
-            Посмотреть видео на YouTube
-          </a>
+          <div>
+            <a
+              href={`https:///youtube.com/watch?v=${id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Посмотреть видео на YouTube"
+            >
+              <img src={previewImage(id)} />
+            </a>
+            <p>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={`https:///youtube.com/watch?v=${id}`}
+              >
+                Смотреть на Youtube
+              </a>
+            </p>
+          </div>
         );
       }
       case 'instagram': {
@@ -51,7 +103,7 @@ const Embed = (props) => {
       case 'telegram': {
         const $ = cheerio.load(data.html);
         const telegramUrl = $('script').attr('data-telegram-post');
-  
+
         return (
           <a
             href={`https://t.me${telegramUrl}`}
@@ -59,7 +111,7 @@ const Embed = (props) => {
             rel="noopener noreferrer"
             style={{ display: 'inline-block', marginBottom: 10 }}
           >
-           Посмотреть пост в Telegram
+            Посмотреть пост в Telegram
           </a>
         );
       }

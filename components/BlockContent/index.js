@@ -2,7 +2,7 @@ import Embed from 'components/Embed';
 import styles from './index.module.css';
 
 const BlockContent = (props) => {
-  const { blocks } = props;
+  const { blocks, isVideo } = props;
   const normalizeUrl = (url) => {
     return url.includes('https://meduza.io') ? url : `https://meduza.io/${url}`;
   };
@@ -118,7 +118,7 @@ const BlockContent = (props) => {
             );
           }
           case 'embed': {
-            return <Embed key={block.id} data={block.data} />;
+            return <Embed key={block.id} data={block.data} isVideo={isVideo} />;
           }
         }
       })}
