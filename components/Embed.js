@@ -115,6 +115,38 @@ const Embed = (props) => {
           </a>
         );
       }
+      case 'vk': {
+        const $ = cheerio.load(data.html);
+        const post = $('div').attr('id');
+
+        if (post) {
+          const id = post.split('-');
+
+          return (
+            <a
+              href={`https://vk.com/wall-${id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: 'inline-block', marginBottom: 10 }}
+            >
+              Посмотреть в ВК
+            </a>
+          );
+        }
+
+        const videoUrl = $('iframe').attr('src');
+  
+        return (
+          <a
+            href={videoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'inline-block', marginBottom: 10 }}
+          >
+            Посмотреть в ВК
+          </a>
+        );
+      }
       case 'facebook': {
         const $ = cheerio.load(data.html);
         const fbUrl = $('.fb-post').attr('data-href');
