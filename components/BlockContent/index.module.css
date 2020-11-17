@@ -35,6 +35,11 @@
 
 .figure {
   margin: 0;
+  margin-bottom: 40px;
+}
+
+.credit {
+  font-size: 12px;
 }
 
 .listItem {
