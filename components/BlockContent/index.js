@@ -128,7 +128,8 @@ const BlockContent = (props) => {
             );
           }
           case 'start_game_btn': {
-            return <a href={`https://meduza.io/${block.data.material_url}`}>Играть на Медузе</a>;
+          case 'grouped': {
+            return <BlockContent blocks={block.data} />;
           }
           case 'embed': {
             return <Embed key={block.id} data={block.data} isVideo={isVideo} />;
