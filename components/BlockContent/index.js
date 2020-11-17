@@ -137,6 +137,7 @@ const BlockContent = (props) => {
           case 'grouped': {
             return <BlockContent blocks={block.data} />;
           }
+          case 'embed_code':
           case 'embed': {
             return <Embed key={block.id} data={block.data} isVideo={isVideo} />;
           }
