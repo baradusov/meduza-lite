@@ -115,6 +115,21 @@ const Embed = (props) => {
           </a>
         );
       }
+      case 'facebook': {
+        const $ = cheerio.load(data.html);
+        const fbUrl = $('.fb-post').attr('data-href');
+
+        return (
+          <a
+            href={fbUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'inline-block', marginBottom: 10 }}
+          >
+            Посмотреть в Facebook
+          </a>
+        );
+      }
       default: {
         return (
           <blockquote>
