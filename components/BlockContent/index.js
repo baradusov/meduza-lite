@@ -75,7 +75,17 @@ const BlockContent = (props) => {
               <figure className={styles.figure} key={block.id}>
                 <img src={normalizeUrl(block.data.large_url)} />
                 <figcaption>
-                  <p dangerouslySetInnerHTML={{ __html: block.data.caption }} />
+                  {block.data.caption && (
+                    <p
+                      dangerouslySetInnerHTML={{ __html: block.data.caption }}
+                    />
+                  )}
+                  {block.data.credit && (
+                    <p
+                      className={styles.credit}
+                      dangerouslySetInnerHTML={{ __html: block.data.credit }}
+                    />
+                  )}
                 </figcaption>
               </figure>
             );
