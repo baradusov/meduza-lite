@@ -33,8 +33,12 @@ const Home = (props) => {
       </ul>
 
       <div className={styles.pager}>
-        <a href={previousPage}>Предыдущая страница</a>
-        <a href={nextPage}>Следующая страница</a>
+        <a className={styles.pagerLink} href={previousPage}>
+          Предыдущая страница
+        </a>
+        <a className={styles.pagerLink} href={nextPage}>
+          Следующая страница
+        </a>
       </div>
     </Page>
   );
