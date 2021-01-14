@@ -95,6 +95,7 @@ const BlockContent = (props) => {
                 <figcaption>
                   {block.data.caption && (
                     <p
+                      className={styles.caption}
                       dangerouslySetInnerHTML={{ __html: block.data.caption }}
                     />
                   )}
