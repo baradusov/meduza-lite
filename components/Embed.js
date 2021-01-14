@@ -176,6 +176,21 @@ const Embed = (props) => {
           </a>
         );
       }
+      case 'reddit': {
+        const $ = cheerio.load(data.html);
+        const redditUrl = $('a').attr('href');
+
+        return (
+          <a
+            href={redditUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'inline-block', marginBottom: 10 }}
+          >
+            Смотреть на Реддите
+          </a>
+        );
+      }
       default: {
         return (
           <blockquote>
