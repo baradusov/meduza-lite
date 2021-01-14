@@ -32,9 +32,27 @@ const BlockContent = (props) => {
               />
             );
           }
+          case 'h2': {
+            return (
+              <h2
+                className={styles.sectionTitle}
+                key={block.id}
+                dangerouslySetInnerHTML={{ __html: block.data }}
+              />
+            );
+          }
           case 'h3': {
             return (
               <h3
+                className={styles.sectionTitle}
+                key={block.id}
+                dangerouslySetInnerHTML={{ __html: block.data }}
+              />
+            );
+          }
+          case 'h4': {
+            return (
+              <h4
                 className={styles.sectionTitle}
                 key={block.id}
                 dangerouslySetInnerHTML={{ __html: block.data }}
