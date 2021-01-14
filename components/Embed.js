@@ -199,6 +199,50 @@ const Embed = (props) => {
           </p>
         );
       }
+      case 'custom': {
+        const $ = cheerio.load(data.html);
+        const embedUrl = $('iframe').attr('src');
+
+        if (embedUrl) {
+          const { host } = new URL(embedUrl);
+
+          if (host.includes('meduza.io')) {
+            return (
+              <p>
+                Здесь должна быть форма от Медузы. Если хотите заполнить её,
+                придётся открыть статью на Медузе.
+              </p>
+            );
+          }
+
+          return (
+            <a
+              href={embedUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: 'inline-block', marginBottom: 10 }}
+            >
+              Открыть пост на {host}
+            </a>
+          );
+        }
+
+        const tiktokUrl = $('.tiktok-embed').attr('cite');
+        if (tiktokUrl) {
+          return (
+            <a
+              href={tiktokUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: 'inline-block', marginBottom: 10 }}
+            >
+              Смотреть тикток-видео
+            </a>
+          );
+        }
+
+        return null;
+      }
       default: {
         return (
           <blockquote>
