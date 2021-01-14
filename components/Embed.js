@@ -135,7 +135,6 @@ const Embed = (props) => {
         }
 
         const videoUrl = $('iframe').attr('src');
-  
         return (
           <a
             href={videoUrl}
