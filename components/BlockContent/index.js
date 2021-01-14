@@ -135,7 +135,9 @@ const BlockContent = (props) => {
           case 'spoiler': {
             return (
               <div className={styles.spoiler} key={block.id}>
-                <h3 className={styles.spolerTitle}>{block.title}</h3>
+                {block.title && (
+                  <h3 className={styles.spolerTitle}>{block.title}</h3>
+                )}
                 <details>
                   <summary style={{ cursor: 'pointer' }}>
                     {block.btn_title}
