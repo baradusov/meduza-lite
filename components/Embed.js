@@ -161,6 +161,21 @@ const Embed = (props) => {
           </a>
         );
       }
+      case 'apple_music': {
+        const $ = cheerio.load(data.html);
+        const appleMusicUrl = $('iframe').attr('src');
+
+        return (
+          <a
+            href={appleMusicUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'inline-block', marginBottom: 10 }}
+          >
+            Послушать в Apple Music
+          </a>
+        );
+      }
       default: {
         return (
           <blockquote>
