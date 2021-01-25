@@ -87,7 +87,8 @@ const Embed = (props) => {
         const link = $('a').filter((i, el) =>
           $(el).attr('href').includes('twitter.com')
         );
-        const twitterUrl = $(link).attr('href');
+        const twitterUrl =
+          $(link).attr('href') || $('[media-url]').attr('media-url');
 
         return (
           <a
@@ -102,11 +103,13 @@ const Embed = (props) => {
       }
       case 'telegram': {
         const $ = cheerio.load(data.html);
-        const telegramUrl = $('script').attr('data-telegram-post');
+        const telegramUrl = $('script').attr('data-telegram-post')
+          ? `https://t.me${$('script').attr('data-telegram-post')}`
+          : $('[media-url]').attr('media-url');
 
         return (
           <a
-            href={`https://t.me${telegramUrl}`}
+            href={telegramUrl}
             target="_blank"
             rel="noopener noreferrer"
             style={{ display: 'inline-block', marginBottom: 10 }}
