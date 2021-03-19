@@ -74,7 +74,7 @@ const BlockContent = (props) => {
                 className={styles.newsText}
                 key={block.id}
                 dangerouslySetInnerHTML={{
-                  __html: replaceOriginalUrlWithLite(block.data),
+                  __html: replaceOriginalUrlWithLite(block.data || ''),
                 }}
               />
             );
