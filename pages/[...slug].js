@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { getArticle, getLatestNews } from 'lib/api';
 import { formatDate } from 'lib/helpers';
+import { withStaticTweets } from 'lib/social';
 import Page from 'components/Page';
 import BlockContent from 'components/BlockContent';
 import styles from 'styles/Home.module.css';
@@ -83,12 +84,13 @@ export const getStaticProps = async ({ params }) => {
   try {
     const { slug } = params;
     const articleData = await getArticle(slug.join('/'));
+    const articleDataWithStaticTweets = await withStaticTweets(articleData); // FIXME Есть не только твиттер
     const { date, time } = formatDate(articleData.datetime);
 
     return {
       props: {
         data: {
-          ...articleData,
+          ...articleDataWithStaticTweets, 
           date,
           time,
         },

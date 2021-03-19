@@ -1,4 +1,5 @@
 const cheerio = require('cheerio');
+import Tweet from 'components/Tweet';
 
 const Embed = (props) => {
   const { data, isVideo } = props;
@@ -83,23 +84,7 @@ const Embed = (props) => {
         );
       }
       case 'twitter': {
-        const $ = cheerio.load(data.html);
-        const link = $('a').filter((i, el) =>
-          $(el).attr('href').includes('twitter.com')
-        );
-        const twitterUrl =
-          $(link).attr('href') || $('[media-url]').attr('media-url');
-
-        return (
-          <a
-            href={twitterUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', marginBottom: 10 }}
-          >
-            Посмотреть твит
-          </a>
-        );
+        return <Tweet tweet={data} />;
       }
       case 'telegram': {
         const $ = cheerio.load(data.html);
@@ -121,7 +106,6 @@ const Embed = (props) => {
       case 'vk': {
         const $ = cheerio.load(data.html);
         const post = $('div').attr('id');
-        
         if (post) {
           const id = post.split('-')[1];
 
