@@ -204,7 +204,7 @@ const Embed = (props) => {
       }
       case 'custom': {
         const $ = cheerio.load(data.html);
-        const embedUrl = $('iframe').attr('src');
+        const embedUrl = $('iframe').attr('src') || $('a').attr('href');
 
         if (embedUrl) {
           const { host } = new URL(embedUrl);
