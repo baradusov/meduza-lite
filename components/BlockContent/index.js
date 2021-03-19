@@ -13,6 +13,8 @@ const BlockContent = (props) => {
   return (
     <div className={styles.content}>
       {blocks.map((block) => {
+        if (block.only_on === 'mobile') return;
+
         switch (block.type) {
           case 'lead': {
             return (
@@ -107,6 +109,42 @@ const BlockContent = (props) => {
                   )}
                 </figcaption>
               </figure>
+            );
+          }
+          case 'dots_on_image': {
+            return (
+              <>
+                <figure className={styles.figure} key={block.id}>
+                  <img src={normalizeUrl(block.data.optimized.original)} />
+                  <figcaption>
+                    {block.data.caption && (
+                      <p
+                        className={styles.caption}
+                        dangerouslySetInnerHTML={{ __html: block.data.caption }}
+                      />
+                    )}
+                    {block.data.credit && (
+                      <p
+                        className={styles.credit}
+                        dangerouslySetInnerHTML={{ __html: block.data.credit }}
+                      />
+                    )}
+                  </figcaption>
+                </figure>
+
+                {block.data.dots.map((dot) => {
+                  return (
+                    <div className={styles.spoiler} key={dot.id}>
+                      <details open>
+                        <summary style={{ cursor: 'pointer' }}>
+                          {dot.title}
+                        </summary>
+                        <div dangerouslySetInnerHTML={{ __html: dot.body }} />
+                      </details>
+                    </div>
+                  );
+                })}
+              </>
             );
           }
           case 'quote': {
