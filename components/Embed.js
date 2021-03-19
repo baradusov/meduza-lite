@@ -121,9 +121,9 @@ const Embed = (props) => {
       case 'vk': {
         const $ = cheerio.load(data.html);
         const post = $('div').attr('id');
-
+        
         if (post) {
-          const id = post.split('-');
+          const id = post.split('-')[1];
 
           return (
             <a
