@@ -1,7 +1,7 @@
 const cheerio = require('cheerio');
-import { prepareStaticInstagramPost } from 'lib/social';
 import Tweet from 'components/Tweet';
 import InstagramPost from 'components/InstagramPost';
+import TelegramPost from 'components/TelegramPost';
 
 const Embed = (props) => {
   const { data, isVideo } = props;
@@ -93,21 +93,7 @@ const Embed = (props) => {
         return <Tweet tweet={data} />;
       }
       case 'telegram': {
-        const $ = cheerio.load(data.html);
-        const telegramUrl = $('script').attr('data-telegram-post')
-          ? `https://t.me${$('script').attr('data-telegram-post')}`
-          : $('[media-url]').attr('media-url');
-
-        return (
-          <a
-            href={telegramUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', marginBottom: 10 }}
-          >
-            Посмотреть пост в Telegram
-          </a>
-        );
+        return <TelegramPost telegramPost={data} />;
       }
       case 'vk': {
         const $ = cheerio.load(data.html);
