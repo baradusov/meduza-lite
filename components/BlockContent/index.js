@@ -3,7 +3,7 @@ import styles from './index.module.css';
 
 const BlockContent = (props) => {
   const { blocks, isVideo } = props;
-  const normalizeUrl = (url) => {
+  const prependHost = (url) => {
     return url.includes('https://meduza.io') ? url : `https://meduza.io/${url}`;
   };
   const replaceOriginalUrlWithLite = (blockData) => {
@@ -93,7 +93,7 @@ const BlockContent = (props) => {
           case 'image': {
             return (
               <figure className={styles.figure} key={block.id}>
-                <img src={normalizeUrl(block.data.large_url)} />
+                <img src={prependHost(block.data.large_url)} />
                 <figcaption>
                   {block.data.caption && (
                     <p
@@ -115,7 +115,7 @@ const BlockContent = (props) => {
             return (
               <>
                 <figure className={styles.figure} key={block.id}>
-                  <img src={normalizeUrl(block.data.optimized.original)} />
+                  <img src={prependHost(block.data.optimized.original)} />
                   <figcaption>
                     {block.data.caption && (
                       <p
