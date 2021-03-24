@@ -37,8 +37,8 @@ const Page = (props) => {
 
       <main className={styles.main}>{children}</main>
 
-      <footer>
-        <p style={{ textAlign: 'center' }}>
+      <footer style={{ textAlign: 'center' }}>
+        <p>
           Обновление каждые 30 минут
           <br />
           Последнее было:
@@ -48,8 +48,8 @@ const Page = (props) => {
         <p>
           Связаться можно <a href="https://t.me/baradusov">через телеграм</a>
         </p>
-
-        <p style={{ textAlign: 'center' }}>
+        <a href="https://baradusov.ru">baradusov.ru</a>
+        <p>
           <a href="/api/rss" target="_blank" rel="noopener noreferrer">
             RSS
           </a>
