@@ -3,7 +3,6 @@ import styles from './index.module.css';
 const InstagramPost = (props) => {
   const { instagramPost } = props;
   const { instagramUrl, imageUrl, author } = instagramPost;
-  console.log(instagramPost);
 
   return (
     <figure className={styles.figure}>
