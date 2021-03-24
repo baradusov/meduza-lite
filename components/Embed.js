@@ -1,5 +1,7 @@
 const cheerio = require('cheerio');
+import { prepareStaticInstagramPost } from 'lib/social';
 import Tweet from 'components/Tweet';
+import InstagramPost from 'components/InstagramPost';
 
 const Embed = (props) => {
   const { data, isVideo } = props;
@@ -69,19 +71,7 @@ const Embed = (props) => {
         );
       }
       case 'instagram': {
-        const $ = cheerio.load(data.html);
-        const instagramUrl = $('a').attr('href');
-
-        return (
-          <a
-            href={instagramUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', marginBottom: 10 }}
-          >
-            Посмотреть пост в Instagram
-          </a>
-        );
+        return <InstagramPost instagramPost={data} />;
       }
       case 'twitter': {
         return <Tweet tweet={data} />;
