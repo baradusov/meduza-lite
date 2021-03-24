@@ -71,6 +71,22 @@ const Embed = (props) => {
         );
       }
       case 'instagram': {
+        if (data.html) {
+          const $ = cheerio.load(data.html);
+          const instagramUrl = $('a').attr('href');
+
+          return (
+            <a
+              href={instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: 'inline-block', marginBottom: 10 }}
+            >
+              Посмотреть пост в Instagram
+            </a>
+          );
+        }
+
         return <InstagramPost instagramPost={data} />;
       }
       case 'twitter': {
