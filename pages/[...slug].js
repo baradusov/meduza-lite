@@ -94,13 +94,13 @@ export const getStaticProps = async ({ params }) => {
   try {
     const { slug } = params;
     const articleData = await getArticle(slug.join('/'));
-    const articleDataWithStaticEmbeds = await withStaticEmbeds(articleData); // FIXME Есть не только твиттер
+    const articleDataWithStaticEmbeds = await withStaticEmbeds(articleData);
     const { date, time } = formatDate(articleData.datetime);
 
     return {
       props: {
         data: {
-          ...articleDataWithStaticEmbeds, 
+          ...articleDataWithStaticEmbeds,
           date,
           time,
         },
