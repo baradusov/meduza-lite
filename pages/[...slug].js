@@ -7,7 +7,7 @@ import BlockContent from 'components/BlockContent';
 import styles from 'styles/Home.module.css';
 
 const News = (props) => {
-  const { data } = props;
+  const { data, params } = props;
 
   if (!data) {
     return (
@@ -22,7 +22,17 @@ const News = (props) => {
             alignItems: 'center',
           }}
         >
-          <p style={{ textAlign: 'center' }}>Такой страницы не существует.</p>
+          <p style={{ textAlign: 'center', margin: '5px' }}>
+            Такой страницы не существует.
+          </p>
+          <p style={{ textAlign: 'center', margin: '5px' }}>
+            Можете попробовать{' '}
+            <a href={`https://meduza.io/${params.slug}`}>открыть на Медузе</a>.
+          </p>
+          <p style={{ textAlign: 'center', margin: '5px' }}>
+            Если она открывается на Медузе, пришлите, пожалуйста, ссылку{' '}
+            <a href="https://t.me/baradusov">мне в телеграм</a>.
+          </p>
         </div>
       </Page>
     );
@@ -98,10 +108,12 @@ export const getStaticProps = async ({ params }) => {
       revalidate: 60 * 30, // каждые 30 минут
     };
   } catch (error) {
-    console.log(error);
+    console.warn('Страница не собралась:', params.slug[0]);
+    console.warn(error);
     return {
       props: {
         data: false,
+        params,
       },
       revalidate: 60 * 30, // каждые 30 минут
     };
