@@ -1,0 +1,11 @@
+.figure {
+  display: inline-block;
+  padding: 15px;
+  border: 1px solid rgb(204, 214, 221);
+  border-radius: 15px;
+}
+
+.link {
+  display: block;
+  box-shadow: none;
+}
