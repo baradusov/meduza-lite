@@ -1,5 +1,5 @@
 export default async (req, res) => {
-  const ACCESS_TOKEN = '447462349794836|b92a816fdd5423732343d9f4663bc45e';
+  const ACCESS_TOKEN = `${process.env.INSTAGRAM_APP_ID}|${process.env.INSTAGRAM_CLIENT_TOKEN}`;
   const response = await fetch(
     `https://graph.facebook.com/v10.0/instagram_oembed?url=${req.query.url}&access_token=${ACCESS_TOKEN}`
   );
