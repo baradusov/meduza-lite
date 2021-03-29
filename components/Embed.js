@@ -3,6 +3,10 @@ import Tweet from 'components/Tweet';
 import InstagramPost from 'components/InstagramPost';
 import TelegramPost from 'components/TelegramPost';
 
+const replaceOriginalUrlWithLite = (blockData) => {
+  return blockData.replace(/https:\/\/meduza.io\//g, '/');
+};
+
 const Embed = (props) => {
   const { data, isVideo } = props;
 
@@ -33,7 +37,7 @@ const Embed = (props) => {
             Смотреть на Youtube
           </a>
         </p>
-        <p dangerouslySetInnerHTML={{ __html: data.caption }} />
+        <p dangerouslySetInnerHTML={{ __html: replaceOriginalUrlWithLite(data.caption) }} />
       </div>
     );
   }
