@@ -108,7 +108,7 @@ export const getStaticProps = async ({ params }) => {
       revalidate: 60 * 30, // каждые 30 минут
     };
   } catch (error) {
-    console.warn('Страница не собралась:', params.slug[0]);
+    console.warn('Страница не собралась:', params.slug.join('/'));
     console.warn(error);
     return {
       props: {
