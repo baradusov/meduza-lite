@@ -2,6 +2,7 @@ const cheerio = require('cheerio');
 import Tweet from 'components/Tweet';
 import InstagramPost from 'components/InstagramPost';
 import TelegramPost from 'components/TelegramPost';
+import Tiktok from 'components/Tiktok';
 
 const replaceOriginalUrlWithLite = (blockData) => {
   return blockData.replace(/https:\/\/meduza.io\//g, '/');
@@ -98,6 +99,9 @@ const Embed = (props) => {
       }
       case 'telegram': {
         return <TelegramPost telegramPost={data} />;
+      }
+      case 'tiktok': {
+        return <Tiktok tiktok={data} />;
       }
       case 'vk': {
         const $ = cheerio.load(data.html);
@@ -206,20 +210,6 @@ const Embed = (props) => {
               style={{ display: 'inline-block', marginBottom: 10 }}
             >
               Открыть пост на {host}
-            </a>
-          );
-        }
-
-        const tiktokUrl = $('.tiktok-embed').attr('cite');
-        if (tiktokUrl) {
-          return (
-            <a
-              href={tiktokUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ display: 'inline-block', marginBottom: 10 }}
-            >
-              Смотреть тикток-видео
             </a>
           );
         }
