@@ -27,7 +27,7 @@ const News = (props) => {
           </p>
           <p style={{ textAlign: 'center', margin: '5px' }}>
             Можете попробовать{' '}
-            <a href={`https://meduza.io/${params.slug}`}>открыть на Медузе</a>.
+            <a href={`https://meduza.io/${params.slug.join('/')}`}>открыть на Медузе</a>.
           </p>
           <p style={{ textAlign: 'center', margin: '5px' }}>
             Если она открывается на Медузе, пришлите, пожалуйста, ссылку{' '}
