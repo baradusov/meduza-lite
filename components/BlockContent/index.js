@@ -48,7 +48,7 @@ const BlockContent = (props) => {
               <h3
                 className={styles.sectionTitle}
                 key={block.id}
-                dangerouslySetInnerHTML={{ __html: block.data }}
+                dangerouslySetInnerHTML={{ __html: replaceOriginalUrlWithLite(block.data) }}
               />
             );
           }
