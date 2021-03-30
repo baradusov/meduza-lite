@@ -167,6 +167,21 @@ const Embed = (props) => {
           </a>
         );
       }
+      case 'yandex_music': {
+        const $ = cheerio.load(data.html);
+        const yandexMusicUrl = $('iframe').attr('src');
+
+        return (
+          <a
+            href={yandexMusicUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'inline-block', marginBottom: 10 }}
+          >
+            Послушать в Яндекс.Музыка
+          </a>
+        );
+      }
       case 'reddit': {
         const $ = cheerio.load(data.html);
         const redditUrl = $('a').attr('href');
