@@ -38,7 +38,11 @@ const Embed = (props) => {
             Смотреть на Youtube
           </a>
         </p>
-        <p dangerouslySetInnerHTML={{ __html: replaceOriginalUrlWithLite(data.caption) }} />
+        <p
+          dangerouslySetInnerHTML={{
+            __html: replaceOriginalUrlWithLite(data.caption),
+          }}
+        />
       </div>
     );
   }

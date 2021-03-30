@@ -11,7 +11,7 @@ const InstagramPost = (props) => {
       </a>
 
       <figcaption>
-        <a href={`https://instagram.com/${author}`} >{`@${author}`}</a>
+        <a href={`https://instagram.com/${author}`}>{`@${author}`}</a>
       </figcaption>
     </figure>
   );
