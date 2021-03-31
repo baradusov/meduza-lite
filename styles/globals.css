@@ -20,3 +20,14 @@ img {
   height: auto;
   max-width: 100%;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #eeeeee;
+  }
+
+  img {
+    filter: brightness(0.8) contrast(1.2);
+  }
+}
