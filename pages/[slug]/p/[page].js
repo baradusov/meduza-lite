@@ -3,10 +3,10 @@ import { formatDate } from 'lib/helpers';
 import Page from 'components/Page';
 import styles from 'styles/Home.module.css';
 
-const Home = (props) => {
-  const { news, currentPage } = props;
-  const nextPage = `/p/${Number(currentPage) + 1}`;
-  const previousPage = currentPage == 1 ? '/' : `/p/${Number(currentPage) - 1}`;
+const ArticlesPage = (props) => {
+  const { slug, news, currentPage } = props;
+  const nextPage = `/${slug}/p/${Number(currentPage) + 1}`;
+  const previousPage = currentPage == 1 ? `/${slug}` : `/${slug}/p/${Number(currentPage) - 1}`;
 
   return (
     <Page>
@@ -45,8 +45,8 @@ const Home = (props) => {
 };
 
 export const getStaticProps = async ({ params }) => {
-  const { slug } = params;
-  const data = await getLatestNews({ page: slug });
+  const { page, slug } = params;
+  const data = await getLatestNews({ page: page, type: slug });
 
   const news = data.map((item) => {
     const { title, datetime, url, second_title } = item;
@@ -63,19 +63,23 @@ export const getStaticProps = async ({ params }) => {
 
   return {
     props: {
+      slug,
       news,
-      currentPage: slug,
+      currentPage: page,
     },
     revalidate: 60 * 30, // каждые 30 минут
   };
 };
 
 export const getStaticPaths = async () => {
-  return { paths: ['/p/1'], fallback: 'blocking' };
+  return {
+    paths: [],
+    fallback: 'blocking',
+  };
 };
 
 export const config = {
   unstable_runtimeJS: false,
 };
 
-export default Home;
+export default ArticlesPage;

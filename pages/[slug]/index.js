@@ -1,22 +1,34 @@
+import Head from 'next/head';
 import { getLatestNews } from 'lib/api';
 import { formatDate } from 'lib/helpers';
 import Page from 'components/Page';
 import styles from 'styles/Home.module.css';
 
-const Home = (props) => {
-  const { news, currentPage } = props;
-  const nextPage = `/p/${Number(currentPage) + 1}`;
-  const previousPage = currentPage == 1 ? '/' : `/p/${Number(currentPage) - 1}`;
+const titles = {
+  news: 'Новости',
+  articles: 'Истории',
+  razbor: 'Разбор',
+  games: 'Игры',
+  shapito: 'Шапито',
+  podcasts: 'Подкасты',
+};
+
+const ArticlesPage = (props) => {
+  const { news, slug } = props;
 
   return (
     <Page>
+      <Head>
+        <title>{titles[slug] || 'Новости'} | Meduza, лёгкая версия</title>
+      </Head>
+
       <ul className={styles.list}>
         {news.map((newsItem) => {
           const { title, secondTitle, date, time, url } = newsItem;
 
           return (
             <li key={url} className={styles.listItem}>
-              <a href={`/${url}`}>
+              <a href={url}>
                 <div className={styles.titleContainer}>
                   <h2 className={styles.newsTitle}>{title}</h2>
                   {secondTitle && (
@@ -32,21 +44,14 @@ const Home = (props) => {
         })}
       </ul>
 
-      <div className={styles.pager}>
-        <a className={styles.pagerLink} href={previousPage}>
-          Предыдущая страница
-        </a>
-        <a className={styles.pagerLink} href={nextPage}>
-          Следующая страница
-        </a>
-      </div>
+      <a href={`${slug}/p/1`}>Следующая страница</a>
     </Page>
   );
 };
 
 export const getStaticProps = async ({ params }) => {
   const { slug } = params;
-  const data = await getLatestNews({ page: slug });
+  const data = await getLatestNews({ type: slug });
 
   const news = data.map((item) => {
     const { title, datetime, url, second_title } = item;
@@ -64,18 +69,18 @@ export const getStaticProps = async ({ params }) => {
   return {
     props: {
       news,
-      currentPage: slug,
+      slug,
     },
     revalidate: 60 * 30, // каждые 30 минут
   };
 };
 
 export const getStaticPaths = async () => {
-  return { paths: ['/p/1'], fallback: 'blocking' };
+  return { paths: [], fallback: 'blocking' };
 };
 
 export const config = {
   unstable_runtimeJS: false,
 };
 
-export default Home;
+export default ArticlesPage;
