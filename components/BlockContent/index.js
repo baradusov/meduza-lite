@@ -1,3 +1,4 @@
+const cheerio = require('cheerio');
 import Embed from 'components/Embed';
 import styles from './index.module.css';
 
@@ -8,6 +9,56 @@ const BlockContent = (props) => {
   };
   const replaceOriginalUrlWithLite = (blockData) => {
     return blockData.replace(/https:\/\/meduza.io\//g, '/');
+  };
+
+  const addLiteVersionUrlToExternalLinks = (blockData) => {
+    const $ = cheerio.load(blockData);
+
+    const isValidUrl = (originUrl) => {
+      const isBannedHost = (originUrl) => {
+        const host = new URL(originUrl).host;
+        return [
+          'www.t.me',
+          't.me',
+          'www.twitter.com',
+          'twitter.com',
+          'www.mdza.io',
+          'mdza.io',
+          'www.meduza.io',
+          'meduza.io',
+          'www.web.archive.org',
+          'web.archive.org',
+          'www.facebook.com',
+          'facebook.com',
+          'www.youtu.be',
+          'youtu.be',
+          'www.youtube.com',
+          'youtube.com',
+        ].includes(host);
+      };
+
+      if (originUrl.includes('https://') || originUrl.includes('http://')) {
+        if (!isBannedHost(originUrl)) {
+          return true;
+        }
+      }
+
+      return false;
+    };
+
+    $('a').each((i, linkEl) => {
+      const originUrl = $(linkEl).attr('href');
+
+      if (isValidUrl(originUrl)) {
+        const originUrlWithoutProtocol = encodeURIComponent(
+          originUrl.replace(/^https?:\/\//, '')
+        );
+        const liteVersionUrl = ` (<a href="/lite/${originUrlWithoutProtocol}" title="Лёгкая версия статьи" style="box-shadow: none;">⚡</a>) `;
+        $(liteVersionUrl).insertAfter(linkEl);
+      }
+    });
+
+    return $('body').html();
   };
 
   return (
@@ -21,7 +72,9 @@ const BlockContent = (props) => {
               <p
                 className={styles.lead}
                 key={block.id}
-                dangerouslySetInnerHTML={{ __html: block.data }}
+                dangerouslySetInnerHTML={{
+                  __html: replaceOriginalUrlWithLite(block.data),
+                }}
               />
             );
           }
@@ -78,7 +131,9 @@ const BlockContent = (props) => {
                 className={styles.newsText}
                 key={block.id}
                 dangerouslySetInnerHTML={{
-                  __html: replaceOriginalUrlWithLite(block.data || ''),
+                  __html: addLiteVersionUrlToExternalLinks(
+                    replaceOriginalUrlWithLite(block.data || '')
+                  ),
                 }}
               />
             );
@@ -88,7 +143,9 @@ const BlockContent = (props) => {
               <p
                 className={styles.contextText}
                 key={block.id}
-                dangerouslySetInnerHTML={{ __html: block.data }}
+                dangerouslySetInnerHTML={{
+                  __html: replaceOriginalUrlWithLite(block.data),
+                }}
               />
             );
           }
