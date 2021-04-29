@@ -33,6 +33,16 @@ const Page = (props) => {
             полная версия
           </a>
         </p>
+
+        <p>
+          <a
+            href="https://support.meduza.io"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Помочь «Медузе»
+          </a>
+        </p>
       </header>
 
       <main className={styles.main}>{children}</main>
