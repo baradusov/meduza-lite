@@ -173,6 +173,21 @@ const BlockContent = (props) => {
               </ul>
             );
           }
+          case 'ol': {
+            return (
+              <ol key={block.id}>
+                {block.data.map((item, index) => {
+                  return (
+                    <li
+                      className={styles.listItem}
+                      key={index}
+                      dangerouslySetInnerHTML={{ __html: item }}
+                    />
+                  );
+                })}
+              </ol>
+            );
+          }
           case 'spoiler': {
             return (
               <div className={styles.spoiler} key={block.id}>
