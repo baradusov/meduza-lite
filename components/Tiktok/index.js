@@ -12,13 +12,13 @@ const Tiktok = (props) => {
         rel="noopener noreferrer"
         title="Посмотреть видео в TikTok"
       >
-        <img src={thumbnail} />
+        {thumbnail ? <img src={thumbnail} /> : 'Посмотреть видео в TikTok'}
       </a>
-      <p
+      {author && <p
         dangerouslySetInnerHTML={{
           __html: `@${author}: <a href="${url}">${title}</a>`,
         }}
-      />
+      />}
     </div>
   );
 };
