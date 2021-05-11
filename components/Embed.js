@@ -79,6 +79,24 @@ const Embed = (props) => {
           </div>
         );
       }
+      case 'vimeo': {
+        const $ = cheerio.load(data.html);
+        const vimeoUrl = $('iframe').attr('src');
+
+        return (
+          <div>
+            <p>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={vimeoUrl}
+              >
+                Смотреть на Vimeo
+              </a>
+            </p>
+          </div>
+        );
+      }
       case 'instagram': {
         if (data.html) {
           const $ = cheerio.load(data.html);
