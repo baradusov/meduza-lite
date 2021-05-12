@@ -22,7 +22,9 @@ const BlockContent = (props) => {
               <p
                 className={styles.lead}
                 key={block.id}
-                dangerouslySetInnerHTML={{ __html: block.data }}
+                dangerouslySetInnerHTML={{
+                  __html: replaceOriginalUrlWithLite(block.data),
+                }}
               />
             );
           }
