@@ -1,4 +1,5 @@
 import Embed from 'components/Embed';
+import Table from 'components/Table';
 import styles from './index.module.css';
 
 const BlockContent = (props) => {
@@ -202,6 +203,9 @@ const BlockContent = (props) => {
                 </details>
               </div>
             );
+          }
+          case 'table': {
+            return <Table key={block.id} data={block} />;
           }
           case 'start_game_btn': {
             return (

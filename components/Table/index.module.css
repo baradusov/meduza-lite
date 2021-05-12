@@ -1,0 +1,12 @@
+.tableContainer {
+  position: relative;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+}
+
+.row:hover {
+  background-color: #e8e8e8;
+}
