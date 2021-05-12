@@ -1,10 +1,13 @@
 import Head from 'next/head';
 import { lastUpdated } from 'lib/helpers';
+import { titles } from 'lib/titles';
 import styles from './index.module.css';
+import Menu from 'components/Menu';
 
 const Page = (props) => {
   const { children } = props;
   const { time, date } = lastUpdated();
+  const menuItems = Object.keys(titles);
 
   return (
     <div className={styles.container}>
@@ -33,6 +36,8 @@ const Page = (props) => {
             полная версия
           </a>
         </p>
+
+        <Menu titles={titles} items={menuItems} />
 
         <p>
           <a

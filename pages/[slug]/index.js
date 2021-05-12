@@ -1,17 +1,9 @@
 import Head from 'next/head';
 import { getLatestNews } from 'lib/api';
 import { formatDate } from 'lib/helpers';
+import { titles } from 'lib/titles';
 import Page from 'components/Page';
 import styles from 'styles/Home.module.css';
-
-const titles = {
-  news: 'Новости',
-  articles: 'Истории',
-  razbor: 'Разбор',
-  games: 'Игры',
-  shapito: 'Шапито',
-  podcasts: 'Подкасты',
-};
 
 const ArticlesPage = (props) => {
   const { news, slug } = props;
