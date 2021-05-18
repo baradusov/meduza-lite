@@ -11,7 +11,7 @@ const Menu = (props) => {
         const classes = asPath === `/${slug}` ? styles.active : '';
 
         return (
-          <li className={styles.item}>
+          <li key={slug} className={styles.item}>
             <a className={classes} href={`/${slug}`}>
               {titles[slug]}
             </a>
