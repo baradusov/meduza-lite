@@ -13,7 +13,7 @@ class MyDocument extends Document {
           <script
             async
             defer
-            datadomain="meduza-lite.vercel.app"
+            data-domain="meduza-lite.vercel.app"
             src="https://open.baradusov.ru/js/plausible.js"
           ></script>
         </Head>
