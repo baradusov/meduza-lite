@@ -26,6 +26,8 @@ const BlockContent = (props) => {
           'mdza.io',
           'www.meduza.io',
           'meduza.io',
+          'www.support.meduza.io',
+          'support.meduza.io',
           'www.web.archive.org',
           'web.archive.org',
           'www.facebook.com',
@@ -34,6 +36,16 @@ const BlockContent = (props) => {
           'youtu.be',
           'www.youtube.com',
           'youtube.com',
+          'www.band.link',
+          'band.link',
+          'www.bloomberg.com',
+          'bloomberg.com',
+          'www.consultant.ru',
+          'consultant.ru',
+          'www.podcast.ru',
+          'podcast.ru',
+          'www.pass.rw.by',
+          'pass.rw.by',
         ].includes(host);
       };
 
@@ -53,7 +65,7 @@ const BlockContent = (props) => {
         const originUrlWithoutProtocol = encodeURIComponent(
           originUrl.replace(/^https?:\/\//, '')
         );
-        const liteVersionUrl = ` (<a href="/lite/${originUrlWithoutProtocol}" title="Лёгкая версия статьи" style="box-shadow: none;">⚡</a>) `;
+        const liteVersionUrl = ` (<a href="/lite/${originUrlWithoutProtocol}" title="Лёгкая версия статьи" style="box-shadow: none;" target="_blank" rel="noopener">⚡</a>) `;
         $(liteVersionUrl).insertAfter(linkEl);
       }
     });
