@@ -16,7 +16,10 @@ const BlockContent = (props) => {
 
     const isValidUrl = (originUrl) => {
       const isBannedHost = (originUrl) => {
-        const host = new URL(originUrl).host;
+        const { host, pathname } = new URL(originUrl);
+
+        if (pathname === '/') return true;
+
         return [
           'www.t.me',
           't.me',
